@@ -108,7 +108,7 @@ endif;
         </div> <!-- painel -->
 
         <footer class="main_footer">
-            <a href="http://www.upinside.com.br/campus" target="_blank" title="Campus UpInside">&copy; Campus UpInside - Todos os Direitos Reservados</a>
+            <a href="http://www..com.br/campus" target="_blank" title="Campus ">&copy; Campus  - Todos os Direitos Reservados</a>
         </footer>
 
     </body>

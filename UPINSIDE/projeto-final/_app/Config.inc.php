@@ -14,7 +14,7 @@ define('MAILHOST', 'servidordeenvio');
 
 // DEFINE IDENTIDADE DO SITE ################
 define('SITENAME', 'Cidade Online');
-define('SITEDESC', 'Este site foi desenvolvido no curso de PHP Orientado a Objetos da UPINSIDE TREINAMENTOS. O mesmo utiliza a arquitetura semântica do HTML5 e foi criado com as últimas técnologias disponíveis!');
+define('SITEDESC', 'Este site foi desenvolvido no curso de PHP Orientado a Objetos da  TREINAMENTOS. O mesmo utiliza a arquitetura semântica do HTML5 e foi criado com as últimas técnologias disponíveis!');
 
 // DEFINE A BASE DO SITE ####################
 define('HOME', 'https://localhost/cursos/ws_php/modulos/12-projeto-final');

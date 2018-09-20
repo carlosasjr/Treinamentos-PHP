@@ -11,7 +11,7 @@
 
         <meta name="description" content="Descrição do site AQUI">
         <meta name="keywords" content="Frases Chave Aqui"> 
-        <meta name="author" content="UPINSIDE TECNOLOGIA">
+        <meta name="author" content=" TECNOLOGIA">
         <meta name="robots" content="index, follow">
 
         <link rel="stylesheet" href="css/reset.css">
@@ -30,8 +30,8 @@
 
                 <div class="header-banner">
                     <!--468x60-->
-                    <a href="http://www.upinside.com.br/campus" title="Campus UpInside - Cursos Profissionais em TI">
-                        <img src="_tmp/banner_medium.png" title="Campus UpInside - Cursos Profissionais em TI" alt="Campus UpInside - Cursos Profissionais em TI" />
+                    <a href="http://www..com.br/campus" title="Campus  - Cursos Profissionais em TI">
+                        <img src="_tmp/banner_medium.png" title="Campus  - Cursos Profissionais em TI" alt="Campus  - Cursos Profissionais em TI" />
                     </a>
                 </div><!-- banner -->
 
@@ -140,8 +140,8 @@
                                 <article>
                                     <!--120x60-->
                                     <h1>
-                                        <a href="URL" title="UPINSIDE TECNOLOGIA" class="img">
-                                            <img alt="UPINSIDE TECNOLOGIA" title="UPINSIDE TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
+                                        <a href="URL" title=" TECNOLOGIA" class="img">
+                                            <img alt=" TECNOLOGIA" title=" TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
                                         </a>
                                     </h1>
                                 </article>
@@ -153,8 +153,8 @@
                                 <article>
                                     <!--120x60-->
                                     <h1>
-                                        <a href="URL" title="UPINSIDE TECNOLOGIA" class="img">
-                                            <img alt="UPINSIDE TECNOLOGIA" title="UPINSIDE TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
+                                        <a href="URL" title=" TECNOLOGIA" class="img">
+                                            <img alt=" TECNOLOGIA" title=" TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
                                         </a>
                                     </h1>
                                 </article>
@@ -166,8 +166,8 @@
                                 <article>
                                     <!--120x60-->
                                     <h1>
-                                        <a href="URL" title="UPINSIDE TECNOLOGIA" class="img">
-                                            <img alt="UPINSIDE TECNOLOGIA" title="UPINSIDE TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
+                                        <a href="URL" title=" TECNOLOGIA" class="img">
+                                            <img alt=" TECNOLOGIA" title=" TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
                                         </a>
                                     </h1>
                                 </article>
@@ -179,8 +179,8 @@
                                 <article>
                                     <!--120x60-->
                                     <h1>
-                                        <a href="URL" title="UPINSIDE TECNOLOGIA" class="img">
-                                            <img alt="UPINSIDE TECNOLOGIA" title="UPINSIDE TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
+                                        <a href="URL" title=" TECNOLOGIA" class="img">
+                                            <img alt=" TECNOLOGIA" title=" TECNOLOGIA" src="_tmp/emp0<?= $com; ?>.png" />
                                         </a>
                                     </h1>
                                 </article>
@@ -193,8 +193,8 @@
                 <aside>
                     <div class="aside-banner">
                         <!--300x250-->
-                        <a href="http://www.upinside.com.br/campus" title="Campus UpInside - Cursos Profissionais em TI">
-                            <img src="_tmp/banner_large.png" title="Campus UpInside - Cursos Profissionais em TI" alt="Campus UpInside - Cursos Profissionais em TI" />
+                        <a href="http://www..com.br/campus" title="Campus  - Cursos Profissionais em TI">
+                            <img src="_tmp/banner_large.png" title="Campus  - Cursos Profissionais em TI" alt="Campus  - Cursos Profissionais em TI" />
                         </a>
                     </div>
 

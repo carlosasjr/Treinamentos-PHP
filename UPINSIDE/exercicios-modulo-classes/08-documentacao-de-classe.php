@@ -7,7 +7,7 @@
     <body>
         <?php
         require('./inc/Config.inc.php');
-        $documentar = new DocumentacaoDeClasse('UPINSIDE');
+        $documentar = new DocumentacaoDeClasse('');
         //$documentar->
         ?>
     </body>

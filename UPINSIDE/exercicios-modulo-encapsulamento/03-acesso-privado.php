@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');
 
-        $robson = new AcessoPrivado('Robson', 'contato@upinside.com', 89787634598);
+        $robson = new AcessoPrivado('Robson', 'contato@.com', 89787634598);
 //        $robson->
 
         var_dump($robson);

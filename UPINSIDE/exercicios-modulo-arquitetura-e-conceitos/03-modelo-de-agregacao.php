@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');
 
-        $robson = new AssociacaoCliente('Robson', 'campus@upinside.com.br');
+        $robson = new AssociacaoCliente('Robson', 'campus@.com.br');
 
         $prophp = new AgregacaoProduto('20', 'Pro PHP', 334.90);
         $wsphp = new AgregacaoProduto('21', 'WS PHP', 289.90);

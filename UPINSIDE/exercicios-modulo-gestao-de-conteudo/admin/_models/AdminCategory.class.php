@@ -4,7 +4,7 @@
  * AdminCategory.class [ MODEL ADMIN ]
  * Responável por gerenciar as categorias do sistema no admin!
  * 
- * @copyright (c) 2014, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) 2014, CARLOS A. SANTOS JÚNIOR
  */
 class AdminCategory {
 

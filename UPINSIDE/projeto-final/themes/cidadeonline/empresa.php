@@ -32,7 +32,7 @@ endif;
             </address>
 
             <h3 class="uicon site"><a href="<?= $empresa_site; ?>" target="_blank" rel="nofollow">Visite nosso site</a></h3>
-            <h3 class="uicon face"><a href="http://www.facebook.com/<?= $empresa_facebook; ?>" target="_blank" rel="nofollow">Upinside Treinamentos no Facebook</a></h3>
+            <h3 class="uicon face"><a href="http://www.facebook.com/<?= $empresa_facebook; ?>" target="_blank" rel="nofollow"> Treinamentos no Facebook</a></h3>
             <h3 class="uicon share"><a onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')" href="https://www.facebook.com/sharer/sharer.php?u=<?= HOME ?>/empresa/<?= $empresa_name; ?>" target="_blank" rel="nofollow">Compartilhe Isso</a></h3>
 
             <!--<iframe width="578" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?q=ENDERECO&amp;ie=UTF8&amp;hq=&amp;hnear=ENDERECO&amp;t=m&amp;z=16&amp;ll=&amp;hl=pt-BR&amp;iwloc=A&amp;output=embed" style="text-align:left; margin-top: 20px;"></iframe>-->

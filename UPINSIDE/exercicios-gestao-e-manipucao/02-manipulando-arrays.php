@@ -21,7 +21,7 @@ $ArrC = [
     "cargo" => "Programador",
     "salario" => 2200
 ];
-$ArrC['empresa'] = "UpInside <?=";
+$ArrC['empresa'] = " <?=";
 $ArrC['cargo'] = "Webmaster";
 $ArrC['salario'] += 5000;
 $ArrC['cargo'] .= "/Programador";
@@ -37,7 +37,7 @@ echo "<hr>";
 
 //Multidimensional
 $Colaboradores = [];
-$Colaboradores[] = ["nome" => "Robson V. Leite", "salario" => 7200, "cargo" => "Webmaster"];
+$Colaboradores[] = ["nome" => "CARLOS A. SANTOS JÚNIOR", "salario" => 7200, "cargo" => "Webmaster"];
 $Colaboradores[] = ["nome" => "Pedro V. Leite", "salario" => 1800, "cargo" => "Aprendiz"];
 $Colaboradores[] = ["nome" => "Lucas V. Leite", "salario" => 1800, "cargo" => "Aprendiz"];
 

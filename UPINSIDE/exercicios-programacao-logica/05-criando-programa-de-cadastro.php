@@ -12,7 +12,7 @@ function EmailValidade($Email) {
     endif;
 }
 
-$Nome = "Robson V. Leite";
+$Nome = "CARLOS A. SANTOS JÚNIOR";
 $Email = "feedbacks@upisnide.com.br";
 
 if (empty($Nome) || empty($Email)):
@@ -22,7 +22,7 @@ elseif (!EmailValidade($Email)):
 else:
     $Users = [
         'cursos@upisnide.com.br',
-        'maria@upinside.com.br'
+        'maria@.com.br'
     ];
     if (in_array($Email, $Users)):
         echo "Ops. Você já é cadastrado. Quer logar? <a href='#'>Sim</a>";

@@ -13,7 +13,7 @@
         //$check = new Check;
         //var_dump($check);
         
-        $Email = 'robson@upinside.com';
+        $Email = 'robson@.com';
         
         if(Check::Email($Email)):
             echo 'Válido! <hr>';
@@ -28,7 +28,7 @@
         $Data = '05/01/2014';
         echo Check::Data($Data) .'<hr>';
         
-        $String = 'Olá mundo, estamos estudando PHP na UpInside!';
+        $String = 'Olá mundo, estamos estudando PHP na !';
         echo Check::Words($String, 5, '<small>continue lendo...</small><hr>');
         
         echo Check::CatByName('artigos') . '<hr>';

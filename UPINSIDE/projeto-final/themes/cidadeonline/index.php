@@ -147,8 +147,8 @@ $tpl_empresa = $View->Load('empresa_p');
         <aside>
             <div class="aside-banner">
                 <!--300x250-->
-                <a href="https://www.upinside.com.br/curso/curso-php-orientado-a-objetos" title="Curso Work Series - PHP Orientado a Objetos">
-                    <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_large.png" title="Campus UpInside - Cursos Profissionais em TI" alt="Campus UpInside - Cursos Profissionais em TI" />
+                <a href="https://www..com.br/curso/curso-php-orientado-a-objetos" title="Curso Work Series - PHP Orientado a Objetos">
+                    <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_large.png" title="Campus  - Cursos Profissionais em TI" alt="Campus  - Cursos Profissionais em TI" />
                 </a>
             </div>
 

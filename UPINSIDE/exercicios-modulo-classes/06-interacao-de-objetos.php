@@ -9,26 +9,26 @@
         require('./class/InteracaoClasse.class.php');
         require('./class/IntercaoDeObjetos.class.php');
         
-        $robson = new InteracaoClasse('Robson V. Leite', 27, 'Programador', 1000);
+        $robson = new InteracaoClasse('CARLOS A. SANTOS JÚNIOR', 27, 'Programador', 1000);
         $marcos = new InteracaoClasse('Marcos', 22, 'Web Design', 500);
         
-        $upinside = new IntercaoDeObjetos('UPINSIDE TECNOLOGIA');
-        $upinside->Contratar($robson, 'WebMaster', 3600);
-        $upinside->Pagar();
-        $upinside->Promover('Gerente de Projetos', 12000);
-        $upinside->Pagar();
-        //$upinside->Demitir(5600);
+        $ = new IntercaoDeObjetos(' TECNOLOGIA');
+        $->Contratar($robson, 'WebMaster', 3600);
+        $->Pagar();
+        $->Promover('Gerente de Projetos', 12000);
+        $->Pagar();
+        //$->Demitir(5600);
         
         
-        $upinside->Contratar($marcos, 'Design', 2200);
-        $upinside->Pagar();
-        $upinside->Pagar();
-        $upinside->Promover('Administrador de Projetos');
+        $->Contratar($marcos, 'Design', 2200);
+        $->Pagar();
+        $->Pagar();
+        $->Promover('Administrador de Projetos');
         
-        $upinside->Funcionarios($robson);
-        $upinside->Pagar();
+        $->Funcionarios($robson);
+        $->Pagar();
         
-        var_dump($robson, $marcos, $upinside);
+        var_dump($robson, $marcos, $);
         ?>
     </body>
 </html>

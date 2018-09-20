@@ -4,7 +4,7 @@
  * <b>Read.class:</b>
  * Classe responsável por leituras genéticas no banco de dados!
  * 
- * @copyright (c) 2014, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) 2014, CARLOS A. SANTOS JÚNIOR
  */
 class Read extends Conn {
 

@@ -7,7 +7,7 @@
     <body>
         <?php
         require('./inc/Config.inc.php');
-        $pessoa = new Heranca('Robson V. Leite', 27);
+        $pessoa = new Heranca('CARLOS A. SANTOS JÚNIOR', 27);
         $pessoa->Formar('Pro PHP');
         $pessoa->Formar('ws PHP');
         $pessoa->Envelhecer();
@@ -16,7 +16,7 @@
         var_dump($pessoa);
         echo "<hr>";
         
-        $pessoaME = new HerancaJuridica('Robson V. Leite', 27, 'UPINSIDE TECNOLOGIA');
+        $pessoaME = new HerancaJuridica('CARLOS A. SANTOS JÚNIOR', 27, ' TECNOLOGIA');
         $pessoaME->Formar('Pro PHP');
         $pessoaME->Formar('ws PHP');
         $pessoaME->Envelhecer();

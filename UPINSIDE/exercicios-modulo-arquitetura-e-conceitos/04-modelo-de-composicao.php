@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');
         
-        $robson = new ComposicaoUsuario('Robson V. Leite', 'campus@upinside.com.br');
+        $robson = new ComposicaoUsuario('CARLOS A. SANTOS JÚNIOR', 'campus@.com.br');
         $robson->CadastrarEndereco('Soledade', 'RS');
         
         echo "O email de {$robson->Nome} é {$robson->Email}<br>";

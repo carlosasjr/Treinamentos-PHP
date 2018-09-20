@@ -4,7 +4,7 @@
  * Session.class [ HELPER ]
  * Responsável pelas estatísticas, sessões e atualizações de tráfego do sistema!
  * 
- * @copyright (c) 2014, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) 2014, CARLOS A. SANTOS JÚNIOR
  */
 class Session {
 
@@ -111,7 +111,7 @@ class Session {
     //Verifica, cria e atualiza o cookie do usuário [ HELPER TRAFFIC ]
     private function getCookie() {
         $Cookie = filter_input(INPUT_COOKIE, 'useronline', FILTER_DEFAULT);
-        setcookie("useronline", base64_encode("upinside"), time() + 86400);
+        setcookie("useronline", base64_encode(""), time() + 86400);
         if (!$Cookie):
             return false;
         else:

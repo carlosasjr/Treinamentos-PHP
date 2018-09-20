@@ -51,7 +51,7 @@ echo "<hr>";
 
 //LÓGICOS
 $l = "";
-$s = "UpInside";
+$s = "";
 
 if($l && $s):
     echo "Existe as duas";
@@ -62,7 +62,7 @@ if($l || $s):
 endif;
 
 echo "<hr>";
-if(empty($l) && $s == "UpInside" || (1 == 10 && empty($l))):
+if(empty($l) && $s == "" || (1 == 10 && empty($l))):
     echo "true";
 else:
     echo "false";

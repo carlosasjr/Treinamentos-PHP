@@ -33,11 +33,11 @@
         <hr>
 
         <?php
-        $decisao = 'studio@upinside.com.br';
+        $decisao = 'studio@.com.br';
 
         if (!filter_var($decisao, FILTER_VALIDATE_EMAIL)):
             echo "E-mail informado é inválido!";
-        elseif ($decisao == 'campus@upinside.com.br'):
+        elseif ($decisao == 'campus@.com.br'):
             die('Esse e-mail é restrito');
         else:
             echo "E-mail válido!";

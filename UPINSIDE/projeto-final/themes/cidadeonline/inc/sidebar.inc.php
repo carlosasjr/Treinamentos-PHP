@@ -10,8 +10,8 @@ $tpl_p = $View->Load('article_p');
     <article class="ads">
         <header>
             <h1>Anúncio Patrocinado:</h1>
-            <a href="https://www.upinside.com.br/curso/curso-php-orientado-a-objetos" title="Curso Work Series - PHP Orientado a Objetos">
-                <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_large.png" alt="UPINSIDE TEINAMENTOS" title="UPINSIDE TEINAMENTOS" />
+            <a href="https://www..com.br/curso/curso-php-orientado-a-objetos" title="Curso Work Series - PHP Orientado a Objetos">
+                <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_large.png" alt=" TEINAMENTOS" title=" TEINAMENTOS" />
             </a>
         </header>
     </article>

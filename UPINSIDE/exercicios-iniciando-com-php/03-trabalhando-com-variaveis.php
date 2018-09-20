@@ -3,8 +3,8 @@
 header('Content-Type: text/html; charset=utf-8');
 
 //Variáveis Normais
-$meuNome = "Robson V. Leite";
-$minha_empresa = "UpInside Treinamentos";
+$meuNome = "CARLOS A. SANTOS JÚNIOR";
+$minha_empresa = " Treinamentos";
 
 $idadeDoCliente = 29;
 $idade_do_cliente = 29;
@@ -13,7 +13,7 @@ echo "Meu nome é {$meuNome}. Eu trabalho na {$minha_empresa} e tenho {$idadeDoC
 
 //VAR de referência!
 $var = "empresa";
-$$var = "UpInside";
+$$var = "";
 echo "Minha {$var} é a {$empresa}<hr>";
 
 //Reescrita

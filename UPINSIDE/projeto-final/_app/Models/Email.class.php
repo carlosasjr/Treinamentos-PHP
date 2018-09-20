@@ -6,7 +6,7 @@ require('_app/Library/PHPMailer/class.phpmailer.php');
  * Email [ MODEL ]
  * Modelo responável por configurar a PHPMailer, validar os dados e disparar e-mails do sistema!
  * 
- * @copyright (c) year, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) year, CARLOS A. SANTOS JÚNIOR
  */
 class Email {
 

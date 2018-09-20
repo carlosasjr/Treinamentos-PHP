@@ -7,8 +7,8 @@
 
         <div class="header-banner">
             <!--468x60-->
-            <a href="https://www.upinside.com.br/" title="Cursos Profissionais em TI">
-                <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_medium.png" title="UpInside Treinamentos - Cursos Profissionais em TI" alt="Campus UpInside - Cursos Profissionais em TI" />
+            <a href="https://www..com.br/" title="Cursos Profissionais em TI">
+                <img src="<?= INCLUDE_PATH; ?>/_tmp/banner_medium.png" title=" Treinamentos - Cursos Profissionais em TI" alt="Campus  - Cursos Profissionais em TI" />
             </a>
         </div><!-- banner -->
 

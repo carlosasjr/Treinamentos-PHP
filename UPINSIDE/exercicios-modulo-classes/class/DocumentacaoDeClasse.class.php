@@ -5,7 +5,7 @@
  * Essa classe foi criada para mostrar a interação de objetos. Logo depois replicamos ela para ver sobre
  * a documentação de classes com PHPDoc.
  * 
- * @copyright (c) 2013, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) 2013, CARLOS A. SANTOS JÚNIOR
  */
 
 class DocumentacaoDeClasse {

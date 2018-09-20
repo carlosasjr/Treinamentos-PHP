@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');
 
-//        $conta = new Abstracao('Robson V. Leite', 500);
+//        $conta = new Abstracao('CARLOS A. SANTOS JÚNIOR', 500);
 //        $contaDois = new Abstracao('Marcos', 300);
 //        
 //        $conta->Despositar(1000);

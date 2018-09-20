@@ -9,8 +9,8 @@ require 'MinhaClasse.class.php';
 require 'MinhaSegundaClasse.class.php';
 
 $Robson = new MinhaSegundaClasse;
-$Robson->setNome('Robson V. Leite');
-$Robson->setEmpresa('UpInside');
+$Robson->setNome('CARLOS A. SANTOS JÚNIOR');
+$Robson->setEmpresa('');
 $Robson->setRamo('Cursos Web');
 $Robson->setIdade(29);
 

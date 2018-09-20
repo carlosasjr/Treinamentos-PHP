@@ -12,7 +12,7 @@
         
         $robson = new stdClass();
         $robson->Nome = 'Robson';
-        $robson->Email = 'contato@upinside.com.br';
+        $robson->Email = 'contato@.com.br';
         
         $cliente->Novo($robson);
         

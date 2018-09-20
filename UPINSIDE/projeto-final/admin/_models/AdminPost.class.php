@@ -4,7 +4,7 @@
  * AdminPost.class [ MODEL ADMIN ]
  * Respnsável por gerenciar os posts no Admin do sistema!
  * 
- * @copyright (c) 2014, Robson V. Leite UPINSIDE TECNOLOGIA
+ * @copyright (c) 2014, CARLOS A. SANTOS JÚNIOR
  */
 class AdminPost {
 

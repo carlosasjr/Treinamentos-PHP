@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');
 
-        $robson = new AssociacaoCliente("Robson V. leite", 'campus@upinside.com.br');
+        $robson = new AssociacaoCliente("CARLOS A. SANTOS JÚNIOR", 'campus@.com.br');
 
 //        $robson = new stdClass();
 //        $robson->Nome = 'Robson';

@@ -4,7 +4,7 @@
 header('Content-Type: text/html; charset=utf-8');
 
 $Pessoa = [];
-$Pessoa['nome'] = "Robson V. Leite <script><?=";
+$Pessoa['nome'] = "CARLOS A. SANTOS JÚNIOR <script><?=";
 $Pessoa = array_pad($Pessoa, 5, null);
 
 $Pessoa = array_filter($Pessoa);
@@ -20,7 +20,7 @@ $Pessoa['idade'] = 28;
 $Pessoa['job'] = "Webmaster";
 $Pessoa = array_reverse($Pessoa);
 
-$Empresa['empresa'] = "UpInside Treinamentos";
+$Empresa['empresa'] = " Treinamentos";
 $Empresa['atuacao'] = "Treinamentos Web";
 
 $Casa['cidade'] = "Floripa";
@@ -33,7 +33,7 @@ var_dump(array_values($Pessoa));
 var_dump(array_slice($Pessoa, 2));
 var_dump("O array tem " . count($Pessoa) . " índices!");
 
-if(in_array("UpInside", $Pessoa)):
+if(in_array("", $Pessoa)):
     echo "Existe!";
 endif;
 

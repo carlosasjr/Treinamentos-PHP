@@ -8,7 +8,7 @@
         <?php
         require('./inc/Config.inc.php');  
         
-        $robson = new AcessoPublico('Robson', 'campus@upinside.com');
+        $robson = new AcessoPublico('Robson', 'campus@.com');
         $robson->Nome = 'Marcos';
         $robson->Email = 'marcos@email.com';
         

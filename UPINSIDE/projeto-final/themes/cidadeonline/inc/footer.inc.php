@@ -3,18 +3,18 @@
         <nav>
             <h3 class="line_title"><span>Categorias:</span></h3>
             <ul>
-                <li><a href="https://www.upinside.com.br/curso/curso-php-orientado-a-objetos" title="Conheça o Curso">Conheça o curso</a></li>
+                <li><a href="https://www..com.br/curso/curso-php-orientado-a-objetos" title="Conheça o Curso">Conheça o curso</a></li>
                 <li><a href="<?= HOME ?>/cadastra-empresa" title="Cadastre Sua Empresa">Cadastre Sua Empresa</a></li>
-                <li><a href="http://www.facebook.com/upinside" target="_blank" title="Facebook UpInside">UpInside No Facebook</a></li>
+                <li><a href="http://www.facebook.com/" target="_blank" title="Facebook "> No Facebook</a></li>
                 <li><a href="<?= HOME ?>" title="Home">Voltar ao início</a></li>
             </ul>
         </nav>
 
         <section>
             <h3 class="line_title"><span>Um resumo:</span></h3>
-            <p>Este site foi desenvolvido no curso de PHP Orientado a Objetos da UPINSIDE TREINAMENTOS.</p>
+            <p>Este site foi desenvolvido no curso de PHP Orientado a Objetos da  TREINAMENTOS.</p>
             <p>O mesmo utiliza toda técnologia semântica do HTML5 e foi criado com as últimas técnologias disponíveis.</p>
-            <p><a href="https://www.upinside.com.br/curso/curso-php-orientado-a-objetos" title="WS PHP - UpInside">Clique aqui e conheça o curso!</a></p>
+            <p><a href="https://www..com.br/curso/curso-php-orientado-a-objetos" title="WS PHP - ">Clique aqui e conheça o curso!</a></p>
         </section>
 
         <section class="footer_contact">
@@ -26,8 +26,8 @@
                 unset($Contato['SendFormContato']);
 
                 $Contato['Assunto'] = 'Mensagem via Site!';
-                $Contato['DestinoNome'] = 'Robson V. Leite - UPINSIDE';
-                $Contato['DestinoEmail'] = 'sistema@upinside.com.br';
+                $Contato['DestinoNome'] = 'CARLOS A. SANTOS JÚNIOR - ';
+                $Contato['DestinoEmail'] = 'sistema@.com.br';
 
                 $SendMail = new Email;
                 $SendMail->Enviar($Contato);

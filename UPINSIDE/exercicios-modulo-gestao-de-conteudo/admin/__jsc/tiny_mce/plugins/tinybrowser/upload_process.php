@@ -91,7 +91,7 @@ else Header('Location: ./upload.php?type='.$_GET['type'].$passfeid.'&folder='.$f
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="Pragma" content="no-cache" />
-		<title>UPINSIDE UPLOAD BROWSER</title>
+		<title> UPLOAD BROWSER</title>
 	</head>
 	<body>
 		<p>Sorry, there was an error processing file uploads.</p>
