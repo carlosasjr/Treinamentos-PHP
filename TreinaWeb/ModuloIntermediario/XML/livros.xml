@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livraria>
+    <livro lang="en-us">
+        <titulo>Livro americano</titulo>
+        <valor moeda="US$">29.90</valor>
+    </livro>
+    <livro lang="pt-br">
+        <titulo>Livro brasileiro</titulo>
+        <valor moeda="RS">59.90</valor>
+    </livro>
+    <livro lang="es">
+        <titulo>Livro espanhol</titulo>
+        <valor moeda="$">20.50</valor>
+    </livro>
+</livraria>

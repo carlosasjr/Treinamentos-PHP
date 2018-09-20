@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<treinaweb>
+  <aluno id="1">
+    <nome>Carlos Antonio</nome>
+    <cidade>Aparecida</cidade>
+  </aluno>
+  <aluno id="2">
+    <nome>Maria Eugenia</nome>
+    <cidade>Aparecida</cidade>
+  </aluno>
+  <aluno id="3">
+    <nome>Samuel Henrique</nome>
+    <cidade>Aparecida</cidade>
+  </aluno>
+</treinaweb>
