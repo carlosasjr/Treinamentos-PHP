@@ -41,7 +41,7 @@ class Crud extends PDO {
         return $sth->fetchAll();
     }
 
-    public function Insert($table, $data) {
+    public function Insert($table, array $data = []) {
         $Fileds = implode(', ', array_keys($data));
         $Places = ':' . implode(', :', array_keys($data));
         $sql = sprintf('INSERT INTO %s (%s) VALUES (%s)', $table, $Fileds, $Places);
@@ -52,9 +52,19 @@ class Crud extends PDO {
 
         return $this->lastInsertId();
     }
-    
-    public function Update($table, $data) {
-        
+
+    public function Update($table, array $data = [], $where) {
+        foreach ($data as $key => $value):
+            $places[] = "{$key} = :{$key}";
+        endforeach;
+
+        $places = implode(', ', $places);
+
+        $sql = sprintf('UPDATE %s SET %s WHERE %s', $table, $places, $where);
+
+        $sth = $this->prepare($sql);
+        $this->bindPlaces($sth, $data);
+        return $sth->execute();
     }
 
     public function Delete($table, $where, $limit = 1) {
