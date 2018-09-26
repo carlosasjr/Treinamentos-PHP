@@ -18,21 +18,48 @@ class Crud extends PDO {
             PDO::ATTR_DEFAULT_FETCH_MODE => $fetchModde,
             PDO::ATTR_PERSISTENT => true
         ]);
-        
     }
-    
-    public function Select($sql, array $places = []) {
-        $stdm = $this->prepare($sql);
-        foreach ($places as $key => $value) {
-            $stdm->bindParam(":$key", $value, is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR);
+
+    /*     * ************************************************ */
+    /*     * ************* METODOS PRIVATES ***************** */
+    /*     * ************************************************ */
+
+    private function bindPlaces(&$sth, $data) {
+        foreach ($data as $key => $value) {
+            $sth->bindValue(":$key", $value, is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR);
         }
-        
-        $stdm->execute();
-        
-        return $stdm->fetchAll();
-        
-        
+    }
+
+    /*     * ************************************************ */
+    /*     * ************* METODOS PUBLICOS ***************** */
+    /*     * ************************************************ */
+
+    public function Select($sql, array $places = []) {
+        $sth = $this->prepare($sql);
+        $this->bindPlaces($sth, $places);
+        $sth->execute();
+        return $sth->fetchAll();
+    }
+
+    public function Insert($table, $data) {
+        $Fileds = implode(', ', array_keys($data));
+        $Places = ':' . implode(', :', array_keys($data));
+        $sql = sprintf('INSERT INTO %s (%s) VALUES (%s)', $table, $Fileds, $Places);
+
+        $sth = $this->prepare($sql);
+        $this->bindPlaces($sth, $data);
+        $sth->execute();
+
+        return $this->lastInsertId();
     }
     
+    public function Update($table, $data) {
+        
+    }
+
+    public function Delete($table, $where, $limit = 1) {
+        $sql = sprintf('DELETE FROM %s WHERE %s LIMIT %S', $table, $where, $limit);
+        return $this->exec($sql);
+    }
 
 }
