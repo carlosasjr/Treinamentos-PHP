@@ -1,6 +1,6 @@
 <?php
 
-$cursos = ['Delphi', 'Php', 'pyton', 'CSS'];
+$cursos = ['Delphi', 'Php', 'Pyton', 'CSS'];
 var_dump($cursos);
 
 //imprime a chave de index 1 = Php
@@ -16,8 +16,7 @@ var_dump($Filmes);
 echo $Filmes['Hobbit'];
 
 
-//Definindo as chaves
-
+//Array indexado
 $nomes[1] = 'Carlos';
 $nomes[2] = 'Maria';
 $nomes[3] = 'José';
@@ -42,4 +41,12 @@ var_dump($megasena);
 unset($megasena[1]); //removendo a dezena 13 com indice 1
 var_dump($megasena);
 
+//Array Associativo
+$cliente = array(
+  'nome' => 'Carlos',
+  'endereco' => 'Rua de exemplo',
+  'bairro' => 'Bairro de exemplo',
+  'cidade' => 'Aparecida'    
+);
+var_dump($cliente);
 

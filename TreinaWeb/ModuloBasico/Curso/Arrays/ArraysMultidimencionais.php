@@ -23,6 +23,7 @@ echo $arr[1][2];
 
 echo '<hr>';
 
+//array Bidimencional ou Multidirecional
 $clientes = [
     ['nome' => 'Carlos',
      'endereco' => 'Rua isaac julio barreto, 329',
@@ -32,8 +33,9 @@ $clientes = [
         ]
     ]
 ];
+var_dump($clientes);
 
-print_r($clientes);
+
 echo "<br>";
 
 echo $clientes[0]['nome'];
