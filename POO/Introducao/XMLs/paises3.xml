@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pais>
+<nome>BRASIL</nome>
+<idioma>portugues</idioma>
+<religiao>Cristianismo</religiao>
+<moeda>Real (R$)</moeda>
+<populacao>258 Milhoes</populacao>
+<geografia>
+    <clima>Temperado</clima>
+    <costa>7367 KM</costa>
+    <pico>Neblina (3014) m</pico>
+</geografia>
+<Presidente>Bolsonaro</Presidente>
+<estados>
+    <estado nome ='Sao Paulo' capital='São Paulo'/>
+    <estado nome ='Rio Grande do Sul' capital='Porto Alegre'/>
+    <estado nome ='Minas Gerais' capital='Belo horizonte'/>
+</estados>
+
+</pais>
