@@ -1,17 +1,43 @@
 <?php
+include_once './PROJETO/APP.CONFIG/Config.inc.php';
 
-include_once './PROJETO/Config.inc.php';  
+try {
+    TTransaction::Open();    
+    
+    $conn = TTransaction::Get();
+    
+    $famosos = ['nome' => 'Samuel Henrique'];
+    $criterio = new TCriterio();
+    $criterio->add(new TFilter('codigo', '=', 8));
 
-$famosos = ['nome' => 'Samuel Henrique'];
+    $update = new TSQLUpdate('famosos', $famosos, $criterio);
+    $update->Execute();
 
-$criterio = new TCriterio();
+    if ($update->Result):
+        echo "1 update Alterado com sucesso..";
+    endif;
+    
+   
+    //forçando o erro nome do campo inválido
+    $famosos = ['nome_' => 'Maria Eugenia dos Santos'];
+    $criterio = new TCriterio();
+    $criterio->add(new TFilter('codigo', '=', 7));
 
-$criterio->add(new TFilter('codigo', '=', 3));
+    $update = new TSQLUpdate('famosos', $famosos, $criterio);
+    $update->Execute();
 
-$update = new TSQLUpdate('famosos', $famosos, $criterio);
-$update->Execute();
+    if ($update->Result):
+        echo "2 update Alterado com sucesso..";
+    endif;
 
-if ($update->Result):
-    echo "Alterado com sucesso..";
-endif;
+
+    TTransaction::Close();
+    
+    
+} catch (Exception $exc) {
+    
+    TTransaction::Rollback();
+    echo $exc->getTraceAsString();
+}
+
 

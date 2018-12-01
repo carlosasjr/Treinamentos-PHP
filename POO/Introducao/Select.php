@@ -18,3 +18,21 @@ foreach ($famosos as $key => $value) {
 }
 
 
+$select2 = new TSQLSelect();
+$select2->FullSQL('SELECT * FROM famosos WHERE codigo = 33');
+
+$famosos = $select2->Result;
+
+echo '<hr>';
+
+if ($famosos) :
+foreach ($famosos as $key => $value) {
+    extract($value);
+    echo  $nome . '<br>';
+} else:
+ echo 'Nenhum Registro '    ;
+endif;
+
+
+
+

@@ -12,20 +12,25 @@ abstract class TSqlInstruction extends TConn {
     /** @var TCriterio */
     protected $Criterio; //armazena o objeto critério
     protected $Entity; //armaze a tabela
-    
+
     /** @var PDOStatement */
     protected static $Statement;
 
     /** @var PDO */
-    protected static $Conn;    
+    protected static $Conn;
 
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
-    //Obtém o PDO e Prepara a query
+
+    public static function getConn() {
+        return parent::getConn();
+    }
+
+//Obtém o PDO e Prepara a query
     protected function Connect() {
-        self::$Conn = parent::getConn();
-        self::$Statement =self::$Conn->prepare($this->Sql);
+        self::$Conn = parent::getConn();     
+        self::$Statement = self::$Conn->prepare($this->Sql);
     }
 
     /*     * ************************************************ */
@@ -47,28 +52,25 @@ abstract class TSqlInstruction extends TConn {
     final public function getEntity() {
         return $this->Entity;
     }
-    
 
     /** <b>Metodo setCriterio</b>
      * Define um critério de seleção dos dados através da composição de um objeto
      * do tipo TCriterio, que oferece uma interface para definição de critérios
      * @param $Criterio = objeto do tipo TCriterio
-     * */    
+     * */
     public function setCriterio(TCriterio $Criterio) {
         $this->Criterio = $Criterio;
     }
-    
+
     /** <b>Metodo getInstruction</b>
      * Declarando-o como <abstract> obrigando sua declaração nas classes filhas,
      * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo. 
-     * */   
+     * */
     abstract protected function getInstruction();
-    
-    
-   /** <b>Metodo Execute</b>
+
+    /** <b>Metodo Execute</b>
      * Declarando-o como <abstract> obrigando sua declaração nas classes filhas,
      * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo. 
-     * */     
+     * */
     abstract function Execute();
-
 }
