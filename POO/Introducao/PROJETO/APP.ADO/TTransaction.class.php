@@ -6,13 +6,16 @@
  * Inicia uma transação no banco de dados
  * @copyright (c) 2018, Carlos Junior
  */
-final class TTransaction extends TConn {
+final class TTransaction  {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
 
     /** @var PDO */
-    private static $Conn;
+    private static $Conn; //Conexão Ativa
+    
+    /** @var TLogger */
+    private static $Logger; //Objeto de LOG
 
     /* Método __construct()
      * Está declarado como private para impedir que se crie instância de TTransaction
@@ -21,6 +24,14 @@ final class TTransaction extends TConn {
     private function __construct() {
         
     }
+    
+    private function __clone() {
+        
+    }
+
+    function __wakeup() {
+        
+    }    
 
     /*     * ************************************************ */
     /*     * ************* METODOS PUBLICOS ***************** */
@@ -28,17 +39,13 @@ final class TTransaction extends TConn {
 
     public static function Open() {
         if (empty(self::$Conn)):
-            self::$Conn = parent::getConn();            
+            self::$Conn = TConn::getInstance();
+            self::$Conn->beginTransaction();
+            self::$Logger = NULL;
         endif;
-        
-        self::$Conn->beginTransaction();
     }
 
-    public static function Get() {
-        return self::$Conn;
-    }
-
-    public static function Rollback() {        
+    public static function Rollback() {
         if (self::$Conn):            
             self::$Conn->rollBack();
             self::$Conn = NULL;
@@ -51,5 +58,18 @@ final class TTransaction extends TConn {
             self::$Conn = NULL;
         endif;
     }
+    
+    public static function setLogger(TLogger $logger) {
+        self::$Logger = $logger;
+    }
+    
+    public static function Log($message){
+        //verifica se existe um logger
+        if (self::$Logger):
+            self::$Logger->write($message);
+        endif;
+    }
+    
+    
 
 }

@@ -6,7 +6,7 @@
  * SQL (SELECT, INSERT, DELETE E UPDATE)
  * @copyright (c) 2018, Carlos Junior
  */
-abstract class TSqlInstruction extends TConn {
+abstract class TSqlInstruction {
 
     protected $Sql; //armazena a instrução SQL
     /** @var TCriterio */
@@ -23,14 +23,13 @@ abstract class TSqlInstruction extends TConn {
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
 
-    public static function getConn() {
-        return parent::getConn();
-    }
-
 //Obtém o PDO e Prepara a query
     protected function Connect() {
-        self::$Conn = parent::getConn();     
+        self::$Conn = TConn::getInstance();
         self::$Statement = self::$Conn->prepare($this->Sql);
+        
+        TTransaction::setLogger(new TLoggerHTML('PROJETO/LOGs/InstrucoesSQL.html'));
+        TTransaction::Log($this->Sql);
     }
 
     /*     * ************************************************ */

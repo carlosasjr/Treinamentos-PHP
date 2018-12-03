@@ -50,7 +50,7 @@ class TSQLUpdate extends TSqlInstruction {
     public function __construct($Entity, $Dados, TCriterio $Criterio) {
         $this->Entity = (string) $Entity;
         $this->Dados = (array) $Dados;
-        
+
         if (!$Criterio):
             WSErro("<b>Critério do objeto TSQLUpdate não foi informado:</b>", 999);
             die;
@@ -73,6 +73,7 @@ class TSQLUpdate extends TSqlInstruction {
             $this->Result = True;
         } catch (PDOException $e) {
             WSErro("<b>Erro ao executar a atualização:</b> {$e->getMessage()}", $e->getCode());
+            throw new Exception();
         }
     }
 
