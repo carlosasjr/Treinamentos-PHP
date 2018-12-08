@@ -7,7 +7,7 @@
  */
 class TSQLDelete extends TSqlInstruction {
 
-    public $Result;
+    private $Result;
 
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
@@ -47,6 +47,15 @@ class TSQLDelete extends TSqlInstruction {
         } catch (PDOException $e) {
             WSErro("<b>Erro ao deletar o registro:</b> {$e->getMessage()}", $e->getCode());
         }
+    }
+
+    /**
+     * <b>Metodo getResult:</b> Retorna a quantidade de registro afetados
+     * @return int Result = registros alterados
+     */
+    public function getResult()
+    {
+        return $this->Result;
     }
 
 }

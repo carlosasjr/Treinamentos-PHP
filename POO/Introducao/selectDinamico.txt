@@ -1,0 +1,52 @@
+<?php
+
+class Element
+{
+    private $element = '';
+
+    public function select(array $data, $keyValue, $key, $value = null)
+    {
+        $element = "<select name='{}' class='{}'>";
+        $element .= "<option value='' selected>Selecione um item</option>";    
+
+        foreach ($data as $d) {
+
+            $element .= "<option value='{$d[$keyValue]}' ";
+
+            if ($value != null && $d[$key] == $value) {
+
+                $element .= "selected";
+            }
+
+            $element .= ">{$d[$key]}</option>";
+
+        }
+
+        $element .= "</select>";
+
+        return $element;
+    }
+}
+
+
+/**
+ * USO
+ */
+
+$el = new Element;
+$arrayData = [
+    ['id' => 1,'name'=> 'A'],
+    ['id' => 2,'name'=> 'B'],
+    ['id' => 3,'name'=> 'C']
+];
+/**
+ * Assim ele criará os options sem deixar selecionado o default
+ */
+
+//echo $el->select($arrayData, 'id', 'name');
+
+/**
+ * Assim ele criará os options deixando um selecionado
+ */
+
+//echo $el->select($arrayData, 'id', 'name', 'B');

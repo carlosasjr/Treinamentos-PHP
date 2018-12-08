@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a3eb52b-7269-4d94-9cce-b809dff6ba89" name="apache_wamp" url="http://projetophp.com">
+        <fileTransfer port="0" mountedRoot="C:\wamp\bin\apache\apache2.4.23\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

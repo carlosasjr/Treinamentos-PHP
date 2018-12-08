@@ -4,7 +4,7 @@
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', '123');
-define('DBSA', 'livro');
+define('DBSA', 'projetopdo');
 define('TYPE', 'mysql');
 
 // DEFINE SERVIDOR DE E-MAIL ################
@@ -27,7 +27,8 @@ define('REQUIRE_PATH', 'themes' . DIRECTORY_SEPARATOR . THEME);
 // AUTO LOAD DE CLASSES ####################
 function __autoload($Class) {
 
-    $cDir = ['../APP.ADO'];
+    $cDir = ['../app.ado',
+            '../admin/_models'];
     $iDir = null;
 
     foreach ($cDir as $dirName):

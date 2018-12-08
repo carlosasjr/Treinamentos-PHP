@@ -8,7 +8,7 @@
 class TSQLUpdate extends TSqlInstruction {
 
     private $Dados; // Array com o Dados para Instrução
-    public $Result;
+    private $Result;
 
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
@@ -75,6 +75,15 @@ class TSQLUpdate extends TSqlInstruction {
             WSErro("<b>Erro ao executar a atualização:</b> {$e->getMessage()}", $e->getCode());
             throw new Exception();
         }
+    }
+
+    /**
+     * <b>Metodo getResult:</b> Retorna True se a alteração foi executada com sucesso.
+     * @return ARRAY $this = Array ResultSet
+     */
+    public function getResult()
+    {
+        return $this->Result;
     }
 
 }

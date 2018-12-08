@@ -1,0 +1,103 @@
+2018-12-07 10:25:11 :: Inserindo alunos
+2018-12-07 10:25:11 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:25:11 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:25:11 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:25:11 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:25:11 :: Inserindo cursos
+2018-12-07 10:25:11 :: SELECT max(id) as id FROM curso
+2018-12-07 10:25:11 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:25:11 :: SELECT max(id) as id FROM curso
+2018-12-07 10:25:11 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:35:29 :: Inserindo alunos
+2018-12-07 10:35:29 :: 
+2018-12-07 10:35:29 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:35:29 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:35:29 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:35:29 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:35:29 :: Inserindo cursos
+2018-12-07 10:35:29 :: SELECT max(id) as id FROM curso
+2018-12-07 10:35:29 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:35:29 :: SELECT max(id) as id FROM curso
+2018-12-07 10:35:29 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:36:30 :: Inserindo alunos
+2018-12-07 10:36:30 :: 
+2018-12-07 10:36:30 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:36:30 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:36:30 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:36:30 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:36:30 :: Inserindo cursos
+2018-12-07 10:36:30 :: SELECT max(id) as id FROM curso
+2018-12-07 10:36:30 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:36:30 :: SELECT max(id) as id FROM curso
+2018-12-07 10:36:30 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:37:20 :: Inserindo alunos
+2018-12-07 10:37:20 :: 
+2018-12-07 10:37:20 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:37:20 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:37:20 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:37:20 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:37:20 :: Inserindo cursos
+2018-12-07 10:37:20 :: SELECT max(id) as id FROM curso
+2018-12-07 10:37:20 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:37:20 :: SELECT max(id) as id FROM curso
+2018-12-07 10:37:20 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:43:59 :: Inserindo alunos
+2018-12-07 10:43:59 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:43:59 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:43:59 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:43:59 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:43:59 :: Inserindo cursos
+2018-12-07 10:43:59 :: SELECT max(id) as id FROM curso
+2018-12-07 10:43:59 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:43:59 :: SELECT max(id) as id FROM curso
+2018-12-07 10:43:59 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:51:11 :: Inserindo alunos
+2018-12-07 10:51:11 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:51:11 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:51:11 :: SELECT max(id) as id FROM aluno
+2018-12-07 10:51:11 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 10:51:11 :: Inserindo cursos
+2018-12-07 10:51:11 :: SELECT max(id) as id FROM curso
+2018-12-07 10:51:11 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 10:51:11 :: SELECT max(id) as id FROM curso
+2018-12-07 10:51:11 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:11:21 :: Inserindo alunos
+2018-12-07 18:11:21 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:11:21 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:11:21 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:11:21 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:11:21 :: Inserindo cursos
+2018-12-07 18:11:21 :: SELECT max(id) as id FROM curso
+2018-12-07 18:11:21 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:11:21 :: SELECT max(id) as id FROM curso
+2018-12-07 18:11:21 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:50 :: Inserindo alunos
+2018-12-07 18:12:50 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:50 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:50 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:50 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:50 :: Inserindo cursos
+2018-12-07 18:12:50 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:50 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:50 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:50 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:55 :: Inserindo alunos
+2018-12-07 18:12:55 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:55 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:55 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:55 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:55 :: Inserindo cursos
+2018-12-07 18:12:55 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:55 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:55 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:55 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:56 :: Inserindo alunos
+2018-12-07 18:12:56 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:56 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:56 :: SELECT max(id) as id FROM aluno
+2018-12-07 18:12:56 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values (:nome, :endereco, :telefone, :cidade, :id)
+2018-12-07 18:12:56 :: Inserindo cursos
+2018-12-07 18:12:56 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:56 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)
+2018-12-07 18:12:56 :: SELECT max(id) as id FROM curso
+2018-12-07 18:12:56 :: INSERT INTO curso (descricao, duracao, id) values (:descricao, :duracao, :id)

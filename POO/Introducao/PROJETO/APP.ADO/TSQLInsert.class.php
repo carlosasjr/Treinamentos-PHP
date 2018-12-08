@@ -9,13 +9,11 @@ final class TSQLInsert extends TSqlInstruction {
    
     private $Dados; // Array com o Dados para Instrução
     
-    public $Result; //Retorna o Id autoincremento
+    private $Result; //Retorna o Id autoincremento
     
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
-
-
     /** <b>Metodo getInstruction</b>
      * Retorna a instrução de INSERT em forma de string
      * @return string Instrução SQL-INSERT
@@ -69,6 +67,16 @@ final class TSQLInsert extends TSqlInstruction {
         } catch (PDOException $e) {
             WSErro("<b>Erro ao executar o cadastro:</b> {$e->getMessage()}", $e->getCode());
         }
+    }
+
+    /**
+     * <b>Metodo getResult:</b> Retorna
+     * Retorna o Id autoincrementado da instrução INSERT
+     * @return int = ID autoincrementado
+     */
+    public function getResult()
+    {
+        return $this->Result;
     }
 
 }

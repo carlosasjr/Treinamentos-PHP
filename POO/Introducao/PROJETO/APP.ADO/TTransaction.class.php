@@ -6,14 +6,14 @@
  * Inicia uma transação no banco de dados
  * @copyright (c) 2018, Carlos Junior
  */
-final class TTransaction  {
+final class TTransaction {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
 
     /** @var PDO */
     private static $Conn; //Conexão Ativa
-    
+
     /** @var TLogger */
     private static $Logger; //Objeto de LOG
 
@@ -24,19 +24,22 @@ final class TTransaction  {
     private function __construct() {
         
     }
-    
+
     private function __clone() {
         
     }
 
     function __wakeup() {
         
-    }    
+    }
 
     /*     * ************************************************ */
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
 
+    /** <b>Metodo Open</b>
+     * Inicializa uma transação no banco de dados     
+     * */
     public static function Open() {
         if (empty(self::$Conn)):
             self::$Conn = TConn::getInstance();
@@ -45,31 +48,66 @@ final class TTransaction  {
         endif;
     }
 
+    /** <b>Metodo Rollback</b>
+     * Interrompe uma transação no banco de dados     
+     * */
     public static function Rollback() {
-        if (self::$Conn):            
+        if (self::$Conn):
             self::$Conn->rollBack();
             self::$Conn = NULL;
         endif;
     }
 
+
+    /** <b>Metodo Close</b>
+     * Fecha uma transação no banco de dados!
+     * Executa o Commit
+     * */    
     public static function Close() {
         if (self::$Conn):
             self::$Conn->commit();
             self::$Conn = NULL;
         endif;
     }
-    
+
+    /**
+     * Método get
+     * Retorna a conexão ativa da transação
+     * @return PDO
+     */
+    public static function get()
+    {
+        //retorna a conexão ativa
+        return self::$Conn;
+    }
+
+
+    /** <b>Metodo setLogger</b>
+     * Cria um objeto do tipo TLogger com o caminho do arquivo de log
+     * @param TLooger $looger
+     * */  
     public static function setLogger(TLogger $logger) {
         self::$Logger = $logger;
     }
-    
-    public static function Log($message){
+
+    /**
+     * @return TLogger
+     */
+    public static function getLogger()
+    {
+        return self::$Logger;
+    }
+
+
+    /** <b>Metodo Log</b>
+     * Cria uma mensagem no arquivo de Log
+     * @param string $message = Mensagem
+     * */  
+    public static function Log($message) {
         //verifica se existe um logger
         if (self::$Logger):
             self::$Logger->write($message);
         endif;
     }
-    
-    
 
 }

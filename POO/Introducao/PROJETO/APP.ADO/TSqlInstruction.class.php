@@ -6,7 +6,8 @@
  * SQL (SELECT, INSERT, DELETE E UPDATE)
  * @copyright (c) 2018, Carlos Junior
  */
-abstract class TSqlInstruction {
+abstract class TSqlInstruction
+{
 
     protected $Sql; //armazena a instrução SQL
     /** @var TCriterio */
@@ -24,11 +25,18 @@ abstract class TSqlInstruction {
     /*     * ************************************************ */
 
 //Obtém o PDO e Prepara a query
-    protected function Connect() {
+    protected function Connect()
+    {
         self::$Conn = TConn::getInstance();
         self::$Statement = self::$Conn->prepare($this->Sql);
-        
-        TTransaction::setLogger(new TLoggerHTML('PROJETO/LOGs/InstrucoesSQL.html'));
+
+        $logger = TTransaction::getLogger();
+
+        if (!isset($logger)):
+            TTransaction::setLogger(new TLoggerHTML('../../logs/InstrucoesSQL.html'));
+        endif;
+
+
         TTransaction::Log($this->Sql);
     }
 
@@ -40,7 +48,8 @@ abstract class TSqlInstruction {
      * Define o nome da entidade (tabela) manipulada pela instrução SQL
      * @param $Entity = tabela
      * */
-    final public function setEntity($Entity) {
+    final public function setEntity($Entity)
+    {
         $this->Entity = $Entity;
     }
 
@@ -48,7 +57,8 @@ abstract class TSqlInstruction {
      * Retorna o nome da entidade (tabela) manipulada pela instrução SQL
      * @return string = tabela
      * */
-    final public function getEntity() {
+    final public function getEntity()
+    {
         return $this->Entity;
     }
 
@@ -57,19 +67,20 @@ abstract class TSqlInstruction {
      * do tipo TCriterio, que oferece uma interface para definição de critérios
      * @param $Criterio = objeto do tipo TCriterio
      * */
-    public function setCriterio(TCriterio $Criterio) {
+    public function setCriterio(TCriterio $Criterio)
+    {
         $this->Criterio = $Criterio;
     }
 
     /** <b>Metodo getInstruction</b>
      * Declarando-o como <abstract> obrigando sua declaração nas classes filhas,
-     * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo. 
+     * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo.
      * */
     abstract protected function getInstruction();
 
     /** <b>Metodo Execute</b>
      * Declarando-o como <abstract> obrigando sua declaração nas classes filhas,
-     * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo. 
+     * uma vez que seu comportamento será distinto em cada uma delas. Usando o conceito de polimorfismo.
      * */
     abstract function Execute();
 }
