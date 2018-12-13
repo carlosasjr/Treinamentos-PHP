@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d535eb18-9f30-4319-ba5e-d4b1174b17a0" name="Default Changelist" comment="Envio pelo PHPStorm">
-      <change beforePath="$PROJECT_DIR$/APP.ADO/TSQLDelete.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TSQLDelete.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP.ADO/TCriterio.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TCriterio.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP.ADO/TFilter.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TFilter.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP.ADO/TSQLInsert.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TSQLInsert.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP.ADO/TSQLSelect.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TSQLSelect.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP.ADO/TSQLUpdate.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TSQLUpdate.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP.ADO/TSqlInstruction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TSqlInstruction.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP.ADO/TTransaction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.ADO/TTransaction.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP.CONFIG/Config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/APP.CONFIG/Config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LOGs/InstrucoesSQL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_models/TAlunoRecord.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.model/TAlunoRecord.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_models/TCursoRecord.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.model/TCursoRecord.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_views/Aluno/AlunoDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_views/Exemplos/AlunoDelete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_views/Aluno/AlunoGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_views/Exemplos/AlunoGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_views/Aluno/AlunoSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_views/Exemplos/AlunoSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/_views/Aluno/AlunoUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_views/Exemplos/AlunoUpdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ado/TRecord.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.ado/TRecord.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ado/TRepository.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.ado/TRepository.class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,22 +26,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="b74fd3d5-c4d3-4636-90f1-9ce32419f5e2" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>D:\PHP\Library\composer.json</pharConfigPath>
+    <pharPath>D:\PHP\Library\composer.phar</pharPath>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TRepository.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.ado/TRepository.class.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tagsHTML.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/widgets/tagsHTML.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TSQLDelete.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.ado/TSQLDelete.class.php">
+      <file leaf-file-name="TStyle.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.widgets/TStyle.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="73">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Estilos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/widgets/Estilos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -55,24 +76,47 @@
         <option value="$PROJECT_DIR$/admin/_models/TVendas.class.php" />
         <option value="$PROJECT_DIR$/admin/_views/Venda.php" />
         <option value="$PROJECT_DIR$/app.ado/TConn.class.php" />
-        <option value="$PROJECT_DIR$/app.ado/TSQLInsert.class.php" />
         <option value="$PROJECT_DIR$/app.ado/TSQLDelete.class.php" />
         <option value="$PROJECT_DIR$/app.record/TRecord.class.php" />
         <option value="$PROJECT_DIR$/admin/_models/TAlunoRecord.class.php" />
         <option value="$PROJECT_DIR$/admin/_models/TCursoRecord.class.php" />
         <option value="$PROJECT_DIR$/admin/logs/log1.txt" />
-        <option value="$PROJECT_DIR$/app.ado/TSqlInstruction.class.php" />
         <option value="$PROJECT_DIR$/app.ado/TTransaction.class.php" />
         <option value="$PROJECT_DIR$/app.ado/TLoggerTXT.class.php" />
         <option value="$PROJECT_DIR$/admin/_views/Aluno/Aluno.php" />
         <option value="$PROJECT_DIR$/admin/_views/Aluno/AlunoUpdate.php" />
-        <option value="$PROJECT_DIR$/app.ado/TSQLUpdate.class.php" />
-        <option value="$PROJECT_DIR$/app.ado/TRecord.class.php" />
         <option value="$PROJECT_DIR$/admin/logs/log4.txt" />
         <option value="$PROJECT_DIR$/admin/_views/Aluno/AlunoDelete.php" />
-        <option value="$PROJECT_DIR$/app.ado/TSQLSelect.class.php" />
         <option value="$PROJECT_DIR$/admin/_views/Aluno/AlunoGet.php" />
+        <option value="$PROJECT_DIR$/admin/_models/TTurmaRecord.class.php" />
+        <option value="$PROJECT_DIR$/admin/_models/TInscricaoRecord.class.php" />
+        <option value="$PROJECT_DIR$/app.ado/TFilter.class.php" />
+        <option value="$PROJECT_DIR$/app.ado/TSqlInstruction.class.php" />
+        <option value="$PROJECT_DIR$/app.ado/TSQLSelect.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/CollectionGet.php" />
+        <option value="$PROJECT_DIR$/app.ado/TCriterio.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/ColletionUpdate.php" />
         <option value="$PROJECT_DIR$/app.ado/TRepository.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/ColletionCount.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/ColletionDelete.php" />
+        <option value="$PROJECT_DIR$/app.ado/TRecord.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/TurmaSet.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Aluno/Teste.php" />
+        <option value="$PROJECT_DIR$/app.model/TInscricaoRecord.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Exemplos/Lazy.php" />
+        <option value="$PROJECT_DIR$/app.model/TAlunoRecord.class.php" />
+        <option value="$PROJECT_DIR$/app.ado/TSQLInsert.class.php" />
+        <option value="$PROJECT_DIR$/app.ado/TSQLUpdate.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Exemplos/bussines.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Exemplos/widgets/tagsHTML.php" />
+        <option value="$PROJECT_DIR$/Validation/composer.json" />
+        <option value="$PROJECT_DIR$/Validation/index.php" />
+        <option value="$PROJECT_DIR$/app.config/Config.inc.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Composer/index.php" />
+        <option value="$PROJECT_DIR$/app.model/TTurmaRecord.class.php" />
+        <option value="$PROJECT_DIR$/app.widgets/TElement.class.php" />
+        <option value="$PROJECT_DIR$/admin/_views/Exemplos/widgets/Estilos.php" />
+        <option value="$PROJECT_DIR$/app.widgets/TStyle.class.php" />
       </list>
     </option>
   </component>
@@ -85,7 +129,16 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="D:/PHP/Library/vendor/composer" />
+      <path value="D:/PHP/Library/vendor/symfony/polyfill-mbstring" />
+      <path value="D:/PHP/Library/vendor/symfony/validator" />
+      <path value="D:/PHP/Library/vendor/symfony/translation" />
+      <path value="D:/PHP/Library/vendor/respect/validation" />
+      <path value="D:/PHP/Library/vendor/nesbot/carbon" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
@@ -117,12 +170,6 @@
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="_models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="_views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -130,12 +177,20 @@
               <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="_views" type="462c0819:PsiDirectoryNode" />
-              <item name="Aluno" type="462c0819:PsiDirectoryNode" />
+              <item name="Exemplos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-              <item name="app.ado" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="_views" type="462c0819:PsiDirectoryNode" />
+              <item name="Exemplos" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
+              <item name="app.widgets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
@@ -150,12 +205,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PHP/Resources/dictionaries/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.php.tools.quality.phpcs.PhpCSConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Treinamentos\POO\Introducao\PROJETO\app.model" />
       <recent name="C:\wamp\www\Treinamentos\POO\Introducao\PROJETO\app.ado" />
       <recent name="C:\wamp\www\Treinamentos\POO\Introducao\PROJETO\admin\_models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Treinamentos\POO\Introducao\PROJETO\admin\_views\Composer" />
+      <recent name="C:\wamp\www\Treinamentos\POO\Introducao\PROJETO\Validation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,39 +249,70 @@
       <workItem from="1544098393668" duration="3292000" />
       <workItem from="1544103388868" duration="17418000" />
       <workItem from="1544179203488" duration="27316000" />
+      <workItem from="1544282601581" duration="11654000" />
+      <workItem from="1544399573976" duration="2408000" />
+      <workItem from="1544460248629" duration="10926000" />
+      <workItem from="1544524825796" duration="5971000" />
+      <workItem from="1544560440025" duration="682000" />
+      <workItem from="1544561146744" duration="18399000" />
+      <workItem from="1544620882922" duration="9882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50190000" />
+    <option name="totallyTimeSpent" value="110112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37631184" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5043924" side_tool="true" visible="true" weight="0.14983714" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5043924" side_tool="true" weight="0.14603175" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4956076" weight="0.30952382" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2591508" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.53073466" weight="0.15472312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64167917" weight="0.35016286" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.53073466" weight="0.15309446" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="4" side_tool="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49926794" visible="true" weight="0.32857144" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46326837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4956076" weight="0.30952382" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.53073466" weight="0.15309446" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="4" side_tool="true" weight="0.329429" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64167917" weight="0.35016286" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5043924" side_tool="true" weight="0.14603175" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49926794" visible="true" weight="0.32857144" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -234,120 +325,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Envio pelo PHPStorm" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.ado/TRecord.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3519">
-          <caret line="207" column="28" lean-forward="true" selection-start-line="207" selection-start-column="28" selection-end-line="207" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Venda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Venda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TVendas.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Venda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TVendas.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TConn.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1315" column="56" lean-forward="true" selection-start-line="1315" selection-start-column="56" selection-end-line="1315" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TSQLInsert.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TCriterio.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TCidade.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TPessoa.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TVendas.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Venda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.config/Config.inc.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/logs/InstrucoesSQL.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TLogger.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TLoggerTXT.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.ado/TTransaction.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -362,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TCursoRecord.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/logs/log2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -376,30 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TSqlInstruction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/logs/log3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TSQLUpdate.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="80" column="86" selection-start-line="80" selection-start-column="86" selection-end-line="80" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Aluno/AlunoUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/logs/log4.txt">
@@ -409,73 +358,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Aluno/AlunoDelete.php">
+    <entry file="file://$PROJECT_DIR$/app.ado/TSQLDelete.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="56">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/AlunoUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.ado/TFilter.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="1479">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.ado/TSqlInstruction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Venda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_models/TProduto.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.ado/TExpression.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Aluno/AlunoSet.php">
+    <entry file="file://$PROJECT_DIR$/app.ado/TCriterio.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="1642">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_views/Aluno/AlunoGet.php">
+    <entry file="file://$PROJECT_DIR$/admin/logs/colletionGet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        <state relative-caret-position="411">
+          <caret line="329" selection-start-line="329" selection-end-line="329" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/_models/TAlunoRecord.class.php">
+    <entry file="file://$PROJECT_DIR$/admin/logs/colletionUPDATE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="34" column="99" lean-forward="true" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/ColletionUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logs/colletionCOUNT.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/ColletionDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/CollectionGet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/ColletionCount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.ado/TSQLSelect.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        <state relative-caret-position="316">
+          <caret line="119" column="60" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TRecord.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.ado/TSQLDelete.class.php">
+    <entry file="file://$PROJECT_DIR$/admin/_views/Aluno/Teste.php" />
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/TurmaSet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.ado/TRepository.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/AlunoGet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/AlunoSet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/Lazy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logs/lazy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/bussines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.ado/TRecord.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.ado/TSQLInsert.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.ado/TSQLUpdate.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logs/buss.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="598" column="9" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Validation/composer.json" />
+    <entry file="file://$PROJECT_DIR$/Validation/index.php" />
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/AlunoDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.config/Config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/Library/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="344" column="22" lean-forward="true" selection-start-line="344" selection-start-column="22" selection-end-line="344" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/Library/vendor/nesbot/carbon/src/Carbon/Carbon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="3573" column="25" lean-forward="true" selection-start-line="3573" selection-start-column="25" selection-end-line="3573" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.model/TTurmaRecord.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.model/TInscricaoRecord.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.model/TCursoRecord.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.model/TAlunoRecord.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Composer/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="e#105#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.widgets/TElement.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/widgets/tagsHTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/_views/Exemplos/widgets/Estilos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.widgets/TStyle.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>

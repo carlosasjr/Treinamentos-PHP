@@ -189,6 +189,7 @@ abstract class TRecord
             if ($sql->getResult()):
                 $objeto = $sql->getResult();
 
+
                 return $objeto;
             endif;
         else:

@@ -5,7 +5,8 @@
  * Esta classe provê uma interface utilizada para definição de critérios
  * @copyright (c) 2018, Carlos Junior
  */
-class TCriterio extends TExpression {
+class TCriterio extends TExpression
+{
 
     private $expressions; //armazena a lista de expressões
     private $operators; // armazena a lista de operadores
@@ -20,12 +21,23 @@ class TCriterio extends TExpression {
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
 
+    /*
+     * Método Construtor
+     */
+    function __construct()
+    {
+        $this->expressions = array();
+        $this->operators = array();
+    }
+
+
     /** <b>Metodo add</b>
      * Adiciona uma expressão ao critério
      * @param TExpression $expression = expressão (objeto TExpression)
-     * @param TExpression $operador = Operador lógico de comparação (AND_OPERATOR / OR_OPERATOR)      
+     * @param TExpression $operador = Operador lógico de comparação (AND_OPERATOR / OR_OPERATOR)
      *  */
-    public function add(TExpression $expression, $operator = self::AND_OPERATOR) {
+    public function add(TExpression $expression, $operator = self::AND_OPERATOR)
+    {
         //Na primeira vez, não precisamos de operador lógico para concatenar      
         if (empty($this->expressions)) :
             unset($operator);
@@ -41,7 +53,8 @@ class TCriterio extends TExpression {
      * Retorna a expressão final
      * @return string Retorna a expressão concatenada.
      *  */
-    public function dump() {
+    public function dump()
+    {
         //concatena a lista de expressões
         $result = '';
         if (is_array($this->expressions)):
@@ -58,20 +71,31 @@ class TCriterio extends TExpression {
 
     /** <b>Metodo setProperty</b>
      * Define o valor de uma propriedade
-     * @param String $property = propriedade
-     * @param $value = valor    
+     * @param string $property = order / limit / offset
+     * @param string $value = valor
      *  */
-    public function setProperty($property, $value) {
-        $this->properties[$property] = $value;
+    public function setProperty($property, $value)
+    {
+        $property = strtolower($property);
+
+        if (isset($value)):
+            $this->properties[$property] = $value;
+        else:
+            $this->properties[$property] = null;
+        endif;
     }
 
     /** <b>Metodo getProperty</b>
      * Retorna o valor de uma propriedade
-     * @param $property = propriedade
-     * @return Retorna o valor de uma propriedade
+     * @param string $property = propriedade
+     * @return string Retorna o valor de uma propriedade
      *  */
-    public function getProperty($property) {
-        return $this->properties[$property];
+    public function getProperty($property)
+    {
+        if (isset($this->properties[$property])):
+            return $this->properties[$property];
+        endif;
+
     }
 
 }

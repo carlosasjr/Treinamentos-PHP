@@ -66,6 +66,8 @@ final class TSQLInsert extends TSqlInstruction {
             $this->Result = parent::$Conn->lastInsertId();
         } catch (PDOException $e) {
             WSErro("<b>Erro ao executar o cadastro:</b> {$e->getMessage()}", $e->getCode());
+            TTransaction::Log('**Rollback**');
+            throw new Exception();
         }
     }
 

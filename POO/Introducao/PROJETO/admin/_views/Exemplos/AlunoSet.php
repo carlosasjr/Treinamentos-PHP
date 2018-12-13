@@ -10,7 +10,7 @@ try {
     //armazena frase no log
     TTransaction::Log('Inserindo alunos');
 
-    //instancia um novo objeto Aluno
+    //instancia um novo objeto Exemplos
     $daline = new TAlunoRecord();
     $daline->nome = 'Daline Dall Oglio';
     $daline->endereco = 'Rua da Conceição';

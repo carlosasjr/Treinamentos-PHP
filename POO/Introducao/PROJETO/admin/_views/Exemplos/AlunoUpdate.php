@@ -17,11 +17,11 @@ try {
 
     TTransaction::Log('Obtendo o aluno 1');
 
-    //instancia registro de Aluno
+    //instancia registro de Exemplos
 
     $record = new TAlunoRecord();
 
-    //obtém o Aluno de ID 1
+    //obtém o Exemplos de ID 1
     /* @var TAlunoRecord $aluno */
     $aluno = $record->load(1);
     if ($aluno): //verifica se ele existe

@@ -90,6 +90,7 @@ final class TRepository
         //instancia instrução de SELECT
         $sql = new TSQLSelect();
         $sql->addColumn('count(*)');
+        $sql->setEntity($this->class);
         //atribui o critério passado como parâmetro
         $sql->setCriterio($criterio);
 
@@ -97,7 +98,8 @@ final class TRepository
             //executa a instrução de SELECT
             $sql->Execute();
             if ($sql->getResult()):
-                return $sql->getResult()[0];
+                return $sql->getResult()[0][0];
+
             endif;
         else:
             //se não existir transação, retorna uma exceção

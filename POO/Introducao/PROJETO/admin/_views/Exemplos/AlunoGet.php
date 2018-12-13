@@ -43,7 +43,7 @@ try {
     $criterio = new TCriterio();
     $criterio->add(new TFilter('id','>=','0'));
 
-    $repo = new TRepository('Aluno');
+    $repo = new TRepository('Exemplos');
     $alunos = $repo->load($criterio);
 
     var_dump($alunos);

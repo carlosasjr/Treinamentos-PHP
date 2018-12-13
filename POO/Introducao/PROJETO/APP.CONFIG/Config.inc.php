@@ -1,5 +1,6 @@
 <?php
 
+
 // CONFIGRAÇÕES DO BANCO ####################
 define('HOST', 'localhost');
 define('USER', 'root');
@@ -28,7 +29,9 @@ define('REQUIRE_PATH', 'themes' . DIRECTORY_SEPARATOR . THEME);
 function __autoload($Class) {
 
     $cDir = ['../app.ado',
-            '../admin/_models'];
+             '../app.widgets',
+             '../app.model',
+             '../admin/_models'];
     $iDir = null;
 
     foreach ($cDir as $dirName):

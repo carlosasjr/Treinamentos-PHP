@@ -23,8 +23,11 @@ class TSQLSelect extends TSqlInstruction
             $this->Sql .= ' WHERE ' . $this->Criterio->dump();
 
             $order = $this->Criterio->getProperty('order');
+
             $limit = $this->Criterio->getProperty('limit');
+
             $offset = $this->Criterio->getProperty('offset');
+
 
             if ($order):
                 $this->Sql .= ' ORDER BY ' . $order;
@@ -37,6 +40,7 @@ class TSQLSelect extends TSqlInstruction
             if ($offset):
                 $this->Sql .= ' OFFSET ' . $offset;
             endif;
+
         endif;
     }
 

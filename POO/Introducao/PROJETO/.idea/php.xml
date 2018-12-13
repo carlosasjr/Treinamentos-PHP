@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="D:/PHP/Library/vendor/composer" />
+      <path value="D:/PHP/Library/vendor/symfony/polyfill-mbstring" />
+      <path value="D:/PHP/Library/vendor/symfony/validator" />
+      <path value="D:/PHP/Library/vendor/symfony/translation" />
+      <path value="D:/PHP/Library/vendor/respect/validation" />
+      <path value="D:/PHP/Library/vendor/nesbot/carbon" />
+    </include_path>
+  </component>
+</project>

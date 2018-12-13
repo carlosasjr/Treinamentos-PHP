@@ -12,7 +12,7 @@ abstract class TSqlInstruction
     protected $Sql; //armazena a instrução SQL
     /** @var TCriterio */
     protected $Criterio; //armazena o objeto critério
-    protected $Entity; //armaze a tabela
+    protected $Entity; //armazena a tabela
 
     /** @var PDOStatement */
     protected static $Statement;

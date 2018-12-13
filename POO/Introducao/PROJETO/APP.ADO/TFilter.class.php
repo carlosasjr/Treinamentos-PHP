@@ -85,7 +85,7 @@ class TFilter extends TExpression {
      * @return string Retorna a expressão concatenada.
      *  */ 
     public function dump() {
-      //concate a expressão
+      //concatena a expressão
         return "{$this->variable} {$this->operator} {$this->value}";
     }
 
