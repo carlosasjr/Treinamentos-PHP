@@ -1,0 +1,10 @@
+
+2018-12-07 16:34:52 :: Apagando carregando o objeto
+2018-12-07 16:34:52 :: SELECT * FROM aluno WHERE (id = 1)
+2018-12-07 16:34:52 :: Apagando diretamente
+2018-12-07 16:34:52 :: DELETE FROM aluno WHERE (id = 2)
+2018-12-14 22:51:53 :: Apagando carregando o objeto
+2018-12-14 22:51:53 :: SELECT * FROM aluno WHERE (id = 1)
+2018-12-14 22:51:53 :: DELETE FROM aluno WHERE (id = '1')
+2018-12-14 22:51:53 :: Apagando diretamente
+2018-12-14 22:51:53 :: DELETE FROM aluno WHERE (id = 2)

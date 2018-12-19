@@ -1,5 +1,0 @@
-2018-12-08 22:04:34 :: DELETE FROM Inscricao WHERE (ref_aluno = 1)
-2018-12-08 22:04:48 :: DELETE FROM Inscricao WHERE (ref_aluno = 1)
-2018-12-08 22:05:52 :: DELETE FROM Inscricao WHERE (ref_aluno = 1)
-2018-12-08 22:05:52 :: DELETE FROM Inscricao WHERE (ref_aluno = 1)
-2018-12-08 22:06:09 :: DELETE FROM Inscricao WHERE (ref_aluno = 1)

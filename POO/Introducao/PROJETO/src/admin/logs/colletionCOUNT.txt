@@ -1,0 +1,55 @@
+2018-12-08 19:14:53 :: Conta os alunos de Porto Alegre
+2018-12-08 19:14:53 :: SELECT count(*) FROM  WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:16:14 :: Conta os alunos de Porto Alegre
+2018-12-08 19:16:14 :: SELECT count(*) FROM  WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:44:24 :: Conta os alunos de Porto Alegre
+2018-12-08 19:44:24 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:45:13 :: Conta os alunos de Porto Alegre
+2018-12-08 19:45:13 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:45:33 :: Conta os alunos de Porto Alegre
+2018-12-08 19:45:33 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:45:47 :: Conta os alunos de Porto Alegre
+2018-12-08 19:45:47 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 19:46:04 :: Conta os alunos de Porto Alegre
+2018-12-08 19:46:04 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 21:49:45 :: Conta os alunos de Porto Alegre
+2018-12-08 21:49:45 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 21:49:45 :: **Conta Turmas
+2018-12-08 21:49:45 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-08 23:15:24 :: Conta os alunos de Porto Alegre
+2018-12-08 23:15:24 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Porto Alegre')
+2018-12-08 23:15:24 :: **Conta Turmas
+2018-12-08 23:15:24 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-14 23:02:34 :: Conta os alunos de Porto Alegre
+2018-12-14 23:02:34 :: SELECT count(*) FROM Exemplos WHERE (cidade = 'Porto Alegre')
+2018-12-14 23:03:40 :: Conta os alunos de Porto Alegre
+2018-12-14 23:03:40 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-14 23:03:40 :: **Conta Turmas
+2018-12-14 23:04:01 :: Conta os alunos de Porto Alegre
+2018-12-14 23:04:01 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-14 23:04:01 :: **Conta Turmas
+2018-12-14 23:04:01 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-17 16:16:22 :: Conta os alunos de Porto Alegre
+2018-12-17 16:16:22 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-17 16:16:22 :: **Conta Turmas
+2018-12-17 16:16:22 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-17 21:21:31 :: Conta os alunos de Porto Alegre
+2018-12-17 21:21:31 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-17 21:21:31 :: **Conta Turmas
+2018-12-17 21:21:31 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-19 00:10:19 :: Conta os alunos de Porto Alegre
+2018-12-19 00:10:19 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-19 00:10:19 :: **Conta Turmas
+2018-12-19 00:10:19 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-19 10:45:57 :: Conta os alunos de Porto Alegre
+2018-12-19 10:45:57 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-19 10:45:57 :: **Conta Turmas
+2018-12-19 10:45:57 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-19 10:48:53 :: Conta os alunos de Porto Alegre
+2018-12-19 10:48:53 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-19 10:48:53 :: **Conta Turmas
+2018-12-19 10:48:53 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))
+2018-12-19 10:50:17 :: Conta os alunos de Porto Alegre
+2018-12-19 10:50:17 :: SELECT count(*) FROM aluno WHERE (cidade = 'Porto Alegre')
+2018-12-19 10:50:17 :: **Conta Turmas
+2018-12-19 10:50:17 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M'))

@@ -1,0 +1,111 @@
+2018-12-14 23:36:26 :: **obtendo o aluno de uma inscrição
+2018-12-14 23:36:26 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-14 23:36:26 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-14 23:36:26 :: **obtendo as inscrições de um aluno
+2018-12-14 23:36:26 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-14 23:36:26 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-14 23:37:02 :: **obtendo o aluno de uma inscrição
+2018-12-14 23:37:02 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-14 23:37:02 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-14 23:37:02 :: **obtendo as inscrições de um aluno
+2018-12-14 23:37:02 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-14 23:37:02 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-14 23:37:22 :: **obtendo o aluno de uma inscrição
+2018-12-14 23:37:22 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-14 23:37:22 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-14 23:37:22 :: **obtendo as inscrições de um aluno
+2018-12-14 23:37:22 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-14 23:37:22 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-14 23:38:27 :: **obtendo o aluno de uma inscrição
+2018-12-14 23:38:27 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-14 23:38:27 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-14 23:38:27 :: **obtendo as inscrições de um aluno
+2018-12-14 23:38:27 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-14 23:38:27 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-16 12:50:41 :: **obtendo o aluno de uma inscrição
+2018-12-16 12:50:41 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-16 12:50:41 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-16 12:50:41 :: **obtendo as inscrições de um aluno
+2018-12-16 12:50:41 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-16 12:50:41 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-16 14:49:01 :: **obtendo o aluno de uma inscrição
+2018-12-16 14:49:01 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-16 14:49:01 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-16 14:49:01 :: **obtendo as inscrições de um aluno
+2018-12-16 14:49:01 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-16 14:49:01 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-16 15:53:12 :: **obtendo o aluno de uma inscrição
+2018-12-16 15:53:12 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-16 15:53:12 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-16 15:53:12 :: **obtendo as inscrições de um aluno
+2018-12-16 15:53:12 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-16 15:53:12 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-17 16:15:49 :: **obtendo o aluno de uma inscrição
+2018-12-17 16:15:49 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-17 16:15:49 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-17 16:15:49 :: **obtendo as inscrições de um aluno
+2018-12-17 16:15:49 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-17 16:15:49 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-17 21:20:56 :: **obtendo o aluno de uma inscrição
+2018-12-17 21:20:56 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-17 21:20:56 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-17 21:20:56 :: **obtendo as inscrições de um aluno
+2018-12-17 21:20:56 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-17 21:20:56 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-19 10:46:05 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:46:05 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:46:05 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-19 10:46:05 :: **obtendo as inscrições de um aluno
+2018-12-19 10:46:05 :: SELECT * FROM aluno WHERE (id = 3)
+2018-12-19 10:46:05 :: SELECT * FROM inscricao WHERE (ref_aluno = '3')
+2018-12-19 10:46:26 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:46:26 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:46:26 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-19 10:46:26 :: **obtendo as inscrições de um aluno
+2018-12-19 10:46:26 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:46:26 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-19 10:46:26 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-19 10:48:39 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:39 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:40 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:40 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:40 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:48:41 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:41 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:41 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:48:41 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:41 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:41 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:48:41 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:41 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:41 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:41 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:48:42 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:42 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:42 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:42 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:42 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:48:42 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:48:42 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:48:42 :: **obtendo as inscrições de um aluno
+2018-12-19 10:48:42 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:48:42 :: SELECT * FROM inscricao WHERE (ref_aluno = NULL)
+2018-12-19 10:50:19 :: **obtendo o aluno de uma inscrição
+2018-12-19 10:50:19 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 10:50:19 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-19 10:50:19 :: **obtendo as inscrições de um aluno
+2018-12-19 10:50:19 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 10:50:19 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-19 10:50:19 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-19 11:10:22 :: **obtendo o aluno de uma inscrição
+2018-12-19 11:10:22 :: SELECT * FROM inscricao WHERE (id = 5)
+2018-12-19 11:10:22 :: SELECT * FROM aluno WHERE (id = '5')
+2018-12-19 11:10:22 :: **obtendo as inscrições de um aluno
+2018-12-19 11:10:22 :: SELECT * FROM aluno WHERE (id = 5)
+2018-12-19 11:10:22 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
+2018-12-19 11:10:22 :: SELECT * FROM inscricao WHERE (ref_aluno = '5')
