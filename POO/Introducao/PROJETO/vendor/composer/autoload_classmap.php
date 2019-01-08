@@ -36,6 +36,7 @@ return array(
     'App\\widgets\\TTable' => $baseDir . '/src/widgets/TTable.class.php',
     'App\\widgets\\TTableCell' => $baseDir . '/src/widgets/TTableCell.class.php',
     'App\\widgets\\TTableRow' => $baseDir . '/src/widgets/TTableRow.class.php',
+    'App\\widgets\\TWindow' => $baseDir . '/src/widgets/TWindow.class.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',

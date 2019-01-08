@@ -218,6 +218,7 @@ class ComposerStaticInit6577fc8d87cbbd2b947e5fc0576911d6
         'App\\widgets\\TTable' => __DIR__ . '/../..' . '/src/widgets/TTable.class.php',
         'App\\widgets\\TTableCell' => __DIR__ . '/../..' . '/src/widgets/TTableCell.class.php',
         'App\\widgets\\TTableRow' => __DIR__ . '/../..' . '/src/widgets/TTableRow.class.php',
+        'App\\widgets\\TWindow' => __DIR__ . '/../..' . '/src/widgets/TWindow.class.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',

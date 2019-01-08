@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Efeito quando o mouse estiver no elemento*/
+a:hover {
+    text-decoration: underline;
+}
+
