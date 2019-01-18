@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#teste {
+  background-color: green;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+
+   /*arredonda todas as bordas*/
+   /* border-radius: 10px;*/
+
+    /*arredonda borda do topo da esquerda*/
+    border-top-left-radius: 10px;
+
+    /*arredonda borda do topo da direita*/
+    border-top-right-radius: 10px;
+
+    /*arredonda borda de baixo da esquerda*/
+    border-bottom-left-radius: 10px;
+
+
+    /*arredonda borda de baixo da direita*/
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>Place Holder</title>
+
+    <style>
+        form {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+            padding: 50px;
+            background-color: aquamarine;
+        }
+    </style>
+
+</head>
+<body>
+<!--
+     placeholder = Colocar um label no input
+     autofocus = Dar foco no input
+     maxlength = Quantidade maxima de caracteres
+     required = Campo de preenchimento obrigatório
+     autocomplete = on/off para habilitar ou desabilitar o autocompletar do campo
+
+-->
+    <form method="post">
+        <input type="email" name="email" placeholder="Usuário" autofocus required autocomplete="off"><br><br>
+        <input type="password" name="senha" placeholder="Senha" maxlength="6"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

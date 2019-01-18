@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>FlexBox</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row ; /* columun / reverse */
+            background-color: #999999;
+            margin: 10px;
+        }
+
+
+       .div1{
+            flex: 1;
+
+            background-color: #FF0000;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .div2{
+            flex: 1;
+
+            background-color: #FF0000;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .div3{
+            flex: 3;
+
+            background-color: #FF0000;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+</div>
+
+
+</body>
+</html>
