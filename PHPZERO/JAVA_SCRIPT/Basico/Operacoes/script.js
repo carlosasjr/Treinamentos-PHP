@@ -1,5 +1,6 @@
 /*
 parseInt = Converter string em inteiro
+.toFixed(2) = Arredondamento
 */
 
 function somar() {

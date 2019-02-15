@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#n1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #DDD;
+    font-size: 100px;
+    margin-right: 5px;
+}
+
+#n2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 199px;
+    border: 1px solid black;
+    background-color: #DDD;
+    font-size: 100px;
+    text-align: center;
+}
+
+button {
+    width: 410px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#pontuacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 408px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #DDD;
+    font-size: 100px;
+    margin-right: 5px;
+}
