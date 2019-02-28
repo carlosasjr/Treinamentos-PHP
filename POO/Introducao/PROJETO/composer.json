@@ -5,7 +5,8 @@
     "nesbot/carbon": "^1.20",
     "squizlabs/php_codesniffer" : "3.3.*",
     "friendsofphp/php-cs-fixer" : "v2.13.*",
-    "phpmd/phpmd" : "2.6.*"	
+    "phpmd/phpmd" : "2.6.*"	,
+    "twbs/bootstrap" : "v4.3.*"
   },
   "autoload": {
 	"psr-4":{

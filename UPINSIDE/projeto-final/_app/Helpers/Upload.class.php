@@ -87,7 +87,7 @@ class Upload {
     }
 
     /**
-     * <b>Enviar Mífia:</b> Basta envelopar um $_FILES de uma mídia e caso queira um nome e um tamanho personalizado.
+     * <b>Enviar Mídia:</b> Basta envelopar um $_FILES de uma mídia e caso queira um nome e um tamanho personalizado.
      * Caso não informe o tamanho será 40mb!
      * @param FILES $Media = Enviar envelope de $_FILES (MP3 ou MP4)
      * @param STRING $Name = Nome do arquivo ( ou do artigo )

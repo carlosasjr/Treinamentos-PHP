@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/composer" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/psr/container" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/psr/log" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/phpmd/phpmd" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/nesbot/carbon" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/pdepend/pdepend" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/respect/validation" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/console" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/process" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/debug" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/dependency-injection" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/options-resolver" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/validator" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/polyfill-php72" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/filesystem" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/finder" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/polyfill-php70" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/event-dispatcher" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/polyfill-ctype" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/translation" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/polyfill-mbstring" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/config" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/symfony/stopwatch" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/doctrine/annotations" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/doctrine/lexer" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/paragonie/random_compat" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/squizlabs/php_codesniffer" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/friendsofphp/php-cs-fixer" />
+      <path value="C:/ProgramData/ComposerSetup/bin/vendor/php-cs-fixer/diff" />
+    </include_path>
+  </component>
+</project>
