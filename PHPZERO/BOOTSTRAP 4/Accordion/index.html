@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Accordion</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+<br>
+<div class="container">
+    <div id="accordion">
+
+        <div class="card">
+            <div class="card-header bg-primary">
+                <button class="btn btn-link text-white" data-toggle="collapse" data-target="#c1" aria-controls="c1">Titulo do Card 1</button>
+            </div>
+            <div class="collapse show" id="c1" data-parent="#accordion">
+                <div class="card-body">
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#c2" aria-controls="c2">Titulo do Card 2</button>
+            </div>
+            <div class="collapse" id="c2" data-parent="#accordion">
+                <div class="card-body">
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#c3" aria-controls="c3">Titulo do Card 3</button>
+            </div>
+            <div class="collapse" id="c3" data-parent="#accordion">
+                <div class="card-body">
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="../assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+<!--
+<div class="container">
+
+   <div id="accordion">
+           <?php for($x=0;$x<4;$x++): ?>
+           <div class="card">
+               <div class="card-header">
+                   <button class="btn btn-primary" data-toggle="collapse" data-target="#c<?php echo $x; ?>" arial-controls="<?php echo $x; ?>">Titulo do card <?php echo $x ?></button>
+               </div>
+<div id="c<?php echo $x; ?>" class="collapse <?php if($x == 0) echo 'show'; ?>" data-parent="#accordion">
+    <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cum cupiditate ea earum, iusto natus quae quo veniam.
+    </div>
+</div>
+</div>
+<?php endfor; ?>
+</div>
+
+</div>
+-->
+
+
+
