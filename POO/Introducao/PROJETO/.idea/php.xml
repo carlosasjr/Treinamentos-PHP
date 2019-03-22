@@ -3,6 +3,35 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="D:/PHP/Composer/vendor/composer" />
+      <path value="D:/PHP/Composer/vendor/symfony/debug" />
+      <path value="D:/PHP/Composer/vendor/respect/validation" />
+      <path value="D:/PHP/Composer/vendor/symfony/dependency-injection" />
+      <path value="D:/PHP/Composer/vendor/symfony/options-resolver" />
+      <path value="D:/PHP/Composer/vendor/symfony/validator" />
+      <path value="D:/PHP/Composer/vendor/symfony/polyfill-php72" />
+      <path value="D:/PHP/Composer/vendor/symfony/filesystem" />
+      <path value="D:/PHP/Composer/vendor/symfony/finder" />
+      <path value="D:/PHP/Composer/vendor/symfony/polyfill-php70" />
+      <path value="D:/PHP/Composer/vendor/symfony/event-dispatcher" />
+      <path value="D:/PHP/Composer/vendor/symfony/polyfill-ctype" />
+      <path value="D:/PHP/Composer/vendor/symfony/translation" />
+      <path value="D:/PHP/Composer/vendor/symfony/polyfill-mbstring" />
+      <path value="D:/PHP/Composer/vendor/symfony/config" />
+      <path value="D:/PHP/Composer/vendor/symfony/stopwatch" />
+      <path value="D:/PHP/Composer/vendor/doctrine/annotations" />
+      <path value="D:/PHP/Composer/vendor/doctrine/lexer" />
+      <path value="D:/PHP/Composer/vendor/paragonie/random_compat" />
+      <path value="D:/PHP/Composer/vendor/squizlabs/php_codesniffer" />
+      <path value="D:/PHP/Composer/vendor/friendsofphp/php-cs-fixer" />
+      <path value="D:/PHP/Composer/vendor/symfony/process" />
+      <path value="D:/PHP/Composer/vendor/php-cs-fixer/diff" />
+      <path value="D:/PHP/Composer/vendor/pdepend/pdepend" />
+      <path value="D:/PHP/Composer/vendor/nesbot/carbon" />
+      <path value="D:/PHP/Composer/vendor/phpmd/phpmd" />
+      <path value="D:/PHP/Composer/vendor/twbs/bootstrap" />
+      <path value="D:/PHP/Composer/vendor/psr/log" />
+      <path value="D:/PHP/Composer/vendor/symfony/console" />
+      <path value="D:/PHP/Composer/vendor/psr/container" />
     </include_path>
   </component>
 </project>

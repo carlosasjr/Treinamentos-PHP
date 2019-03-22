@@ -12,5 +12,8 @@ echo $maria->cidade->getNome();
 
 var_dump($carlos->cidade);
 
+?>
+
+
 
 

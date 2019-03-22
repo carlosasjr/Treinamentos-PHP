@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Title</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    document.onmousemove = function (evento) {
+        var x = evento.clientX;
+        var y = evento.clientY;
+
+        var bg = Math.floor(Math.random() * 0xFFFFFF);
+        bg = "#" + ("000000" + bg.toString(16)).substr(-6);
+
+        var div = document.createElement('div');
+        div.style.position = 'absolute';
+        div.style.top = y + 'px';
+        div.style.left = x + 'px';
+        div.style.color = bg;
+        div.innerHTML = '*';
+
+        document.body.appendChild(div);
+    }
+</script>
+
+</body>
+</html>
