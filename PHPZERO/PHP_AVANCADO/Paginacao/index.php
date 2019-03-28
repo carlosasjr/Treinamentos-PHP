@@ -55,12 +55,13 @@ $pg = ($paginaAtual - 1) * $regPorPagina;
 
     echo '<br>';
 
-    echo '<ul class="pagination">';
+    echo '<ul class="pagination" width="300px">';
 
     for ($q = 0; $q < $totalPaginas; $q++) {
         $active = (($q + 1) == $paginaAtual ? 'active' : '');
 
         echo '<li class="page-item ' . $active . '">' . '<a class="page-link" href="./?p=' . ($q + 1) . '">' . ($q + 1) . '</a></li>';
+
     }
 
     echo '</ul>'
