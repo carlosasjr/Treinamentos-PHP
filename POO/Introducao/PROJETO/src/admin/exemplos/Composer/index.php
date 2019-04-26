@@ -1,10 +1,11 @@
 <?php
-include_once '..\..\..\app.config\Config.inc.php';
+//include_once '..\..\..\app.config\Config.inc.php';
 
-require 'd:/PHP/Library/vendor/autoload.php';
+require ('../../../../vendor/autoload.php');
 
 use Respect\Validation\Validator;
 use Carbon\Carbon;
+
 
 var_dump( Validator::cpf()->validate('32079024809') ); // true
 var_dump( Validator::cpf()->validate('79731627801') ); // false
@@ -30,6 +31,7 @@ $data_format = Carbon::createFromFormat('d/m/Y H:i', $dataFormulario);
 echo $data_format->day  . '<br>';
 echo $data_format->month  . '<br>';
 echo $data_format->year  . '<br>';
+
 
 
 

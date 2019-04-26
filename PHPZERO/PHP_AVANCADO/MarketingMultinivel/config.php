@@ -6,7 +6,7 @@
  * Time: 15:32
  */
 
-$dsn = 'mysql:dbname=projeto_marketing;host=localhost';
+$dsn = 'mysql:dbname=projeto_multinivel;host=localhost';
 $user = 'root';
 $senha = '';
 $options = [
@@ -15,10 +15,15 @@ $options = [
 ];
 
 try {
+    global $pdo;
     $pdo = new PDO($dsn, $user, $senha, $options);
 
 } catch (PDOException $e) {
     echo 'Falhou: ' . $e->getMessage();
 }
 
+
+define('__LIMITE', 3);
+
+$patentes = array();
 
