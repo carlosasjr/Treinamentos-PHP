@@ -5,7 +5,7 @@
  * Date: 08/03/2019
  * Time: 14:51
  */
-print_r($_GET);
+echo $_GET['url'];
 
 
 
