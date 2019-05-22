@@ -5,32 +5,34 @@
  *
  * @copyright (c) 2018, Carlos Junior
  */
-class galeriaController extends Controller
+class Controller
 {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
 
 
+
     /*     * ************************************************ */
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
 
-    public function index()
+    public function logado()
     {
-        $dados = array(
-            'qt' => 129
-        );
-
-        $this->loadTemplate('galeria/galeria', $dados);
+        if (empty($_SESSION['cLogin'])) {
+            header("Location: " . BASE_URL . "login");
+            exit;
+        }
     }
 
-    public function buscar($id) {
-        $dados = array(
-            'descricao' => 'livros'
-        );
-
-        $this->loadTemplate('galeria/galeria_item', $dados);
+    public function loadTemplate($viewName, $viewData = array())
+    {
+        require 'views/template.php';
     }
 
+    public function loadViewInTemplate($viewName, $viewData = array())
+    {
+        extract($viewData);
+        require 'views/' . $viewName . '.php';
+    }
 }

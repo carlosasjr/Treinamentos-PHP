@@ -5,7 +5,7 @@
  *
  * @copyright (c) 2018, Carlos Junior
  */
-class homeController extends Controller
+class Categorias extends Model
 {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
@@ -16,17 +16,17 @@ class homeController extends Controller
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
 
-    public function index()
+    public function getLista()
     {
+        $array = array();
 
+        $sql = $this->db->query("SELECT * FROM categorias");
 
-        $dados = array(
+        if ($sql->rowCount() > 0) {
+            $array = $sql->fetchAll();
+        }
 
-        );
+        return $array;
 
-
-
-        $this->loadTemplate('home', $dados);
     }
-
 }

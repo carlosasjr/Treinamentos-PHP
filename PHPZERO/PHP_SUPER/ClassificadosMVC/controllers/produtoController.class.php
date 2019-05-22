@@ -5,7 +5,7 @@
  *
  * @copyright (c) 2018, Carlos Junior
  */
-class homeController extends Controller
+class produtoController extends Controller
 {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
@@ -19,14 +19,24 @@ class homeController extends Controller
     public function index()
     {
 
-
-        $dados = array(
-
-        );
-
-
-
-        $this->loadTemplate('home', $dados);
     }
 
+    public function abrir($id)
+    {
+        $dados = array();
+
+        $a = new Anuncios();
+
+        if (empty($id)) {
+            header("Location: " . BASE_URL);
+            exit;
+        }
+
+        $info = $a->getAnuncio($id);
+
+        $dados['info'] = $info;
+
+        $this->loadTemplate('produto', $dados);
+
+    }
 }

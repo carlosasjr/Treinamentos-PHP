@@ -5,8 +5,9 @@
  *
  * @copyright (c) 2018, Carlos Junior
  */
-class homeController extends Controller
+class Model
 {
+    protected  $db;
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
     /*     * ************************************************ */
@@ -15,18 +16,11 @@ class homeController extends Controller
     /*     * ************************************************ */
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
-
-    public function index()
+    public function __construct()
     {
+        global $db;
+        $this->db = $db;
 
-
-        $dados = array(
-
-        );
-
-
-
-        $this->loadTemplate('home', $dados);
     }
 
 }
