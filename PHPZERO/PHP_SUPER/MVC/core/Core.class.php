@@ -52,6 +52,13 @@ class Core
             $currentAction = 'index';
         }
 
+
+        //Erro 404
+        if (!file_exists('controllers/' . $currentController . '.class.php') || !method_exists($currentController, $currentAction)) {
+            $currentController = 'notfoundController';
+            $currentAction = 'index';
+        }
+
         $c = new $currentController();
         call_user_func_array(array($c,  $currentAction), $params);
 

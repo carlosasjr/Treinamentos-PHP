@@ -1,6 +1,5 @@
 <div class="container-fluid">
     <div class="jumbotron">
-
         <h2>Nós temos hoje <?= $total_anuncios ?> anúncio(s)</h2>
         <p>Existe mais de <?= $total_usuario ?> usuário(s) cadastrado(s)</p>
     </div>
@@ -93,13 +92,19 @@
                 </tbody>
             </table>
 
+            <?php
+
+            ?>
+
             <ul class="pagination">
                 <?php for ($q = 1; $q <= $total_paginas; $q++) : ?>
                     <li class="page-item <?php echo ($p == $q) ? "active" : '' ?>">
                         <a class="page-link" href="<?php echo BASE_URL; ?>?
-                        <?php $w = $_GET;
+                        <?php
+
                         $w['p'] = $q;
                         echo http_build_query($w);
+
                         ?>"><?php echo($q); ?></a>
                     </li>
                 <?php endfor; ?>

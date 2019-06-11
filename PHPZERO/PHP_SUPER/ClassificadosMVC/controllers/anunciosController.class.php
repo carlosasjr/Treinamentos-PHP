@@ -30,6 +30,36 @@ class anunciosController extends Controller
         $this->loadTemplate('anuncios', $dados);
     }
 
+    public function adicionar()
+    {
+        $dados = array();
+
+        $data = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+
+        if (!empty($data) && $data['btnForm']) {
+            $titulo = $data['titulo'];
+            $categoria = $data['categoria'];
+            $valor = $data['valor'];
+            $descricao = $data['descricao'];
+            $estado = $data['estado'];
+
+            $a = new Anuncios();
+
+            $a->addAnuncio($titulo, $categoria, $valor, $descricao, $estado);
+
+
+            $dados['msg'] = '<div class="alert alert-success">Produto Adicionado com sucesso!</div>';
+        }
+
+        $c = new Categorias();
+        $cats = $c->getLista();
+
+        $dados['cats'] = $cats;
+
+        $this->loadTemplate('adicionar', $dados);
+
+    }
+
     public function excluir($id)
     {
         if (!empty($id)) {

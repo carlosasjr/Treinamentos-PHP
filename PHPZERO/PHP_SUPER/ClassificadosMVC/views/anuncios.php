@@ -1,7 +1,7 @@
 <div class="container">
     <h1>Meus Anuncios</h1>
 
-    <a href="add-anuncio.php" class="btn btn-dark">Adicionar Anúncio</a>
+    <a href="<?php echo BASE_URL; ?>anuncios/adicionar" class="btn btn-dark">Adicionar Anúncio</a>
 
     <br>
     <br>

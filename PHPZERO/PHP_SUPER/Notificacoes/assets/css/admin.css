@@ -1,0 +1,38 @@
+body{font-family: 'Open Sans', sans-serif;}
+body.login{background: #09f;}
+body.painel{background: url(../images/header_bg.png) repeat-x #fbfbfb;}
+
+/*FLOATS*/
+.right{float: right !important;}
+.left{float: left !important;}
+.center{text-align: center !important;}
+
+
+/*GERAL CONTENT*/
+#painel{width: 100%; padding: 30px 0 30px;}
+#painel .notfound{min-height: 320px;}
+#nomeBar {
+    padding: 10px;
+}
+
+/*FOOTER GERAL*/
+.main_footer{background: #069; width: 100%; padding: 10px 0; text-align: center;}
+.main_footer a{font-size: 14px; color: #FFFFFF; font-variant: small-caps;}
+.main_footer a:hover{text-decoration: underline; color: #FFFFFF}
+
+.tab-content {
+   margin-top: 10px;
+}
+
+
+.act_view{background: #fff url(../icons/act_view.png) center center no-repeat;}
+.act_edit{background: #fff url(../icons/act_edit.png) center center no-repeat; }
+.act_ative{background: #fff url(../icons/act_ative.png) center center no-repeat;}
+.act_inative{background: #fff url(../icons/act_inative.png) center center no-repeat;}
+.act_delete{background: #fff url(../icons/act_delete.png) center center no-repeat;}
+
+.form_load{display: none;}
+
+.error {
+    color: #cc0000;
+}

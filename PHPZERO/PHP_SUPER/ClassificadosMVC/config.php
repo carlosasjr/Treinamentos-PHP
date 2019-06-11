@@ -1,6 +1,6 @@
 <?php
-
 require 'environment.php';
+
 
 $config = array();
 
@@ -10,12 +10,17 @@ if (ENVIRONMENT == 'development') {
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
+
+    //mostrar todos os erros
+    error_reporting(E_ALL);
+    ini_set("display_errors", "on");
 } else {
     define("BASE_URL", "http://www.meusite.com.br/");
     $config['dbname'] = 'classificados';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
+    ini_set("display_errors", "off");
 }
 
 global $db;
