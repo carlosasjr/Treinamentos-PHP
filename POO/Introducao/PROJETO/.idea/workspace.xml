@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -230,18 +230,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
@@ -274,21 +268,6 @@
               <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controler" type="462c0819:PsiDirectoryNode" />
-              <item name="MyControler.class.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controler" type="462c0819:PsiDirectoryNode" />
-              <item name="MyControler.class.php" type="88303cf5:PhpFileNode" />
-              <item name="MyControler" type="e2efd96b:PhpElementNode" />
-            </path>
-            <path>
-              <item name="PROJETO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +279,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,15 +378,15 @@
       <workItem from="1554928239932" duration="1588000" />
       <workItem from="1555080385647" duration="9000" />
       <workItem from="1558472303104" duration="393000" />
+      <workItem from="1560363039633" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197116000" />
+    <option name="totallyTimeSpent" value="197150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23279649" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -414,12 +394,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50512445" side_tool="true" weight="0.21269841" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32063493" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49487555" weight="0.20952381" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49487555" weight="0.20952381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64167917" weight="0.35016286" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64167917" weight="0.35016286" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -434,10 +414,10 @@
       <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49926794" visible="true" weight="0.32857144" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3579795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,7 +433,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64167917" weight="0.35016286" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32063493" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50512445" side_tool="true" weight="0.21269841" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.49926794" visible="true" weight="0.32857144" />
@@ -746,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ $(function () {
             contentType: false,
             processData: false,
             success: function (json) {
-                var html = '<img src="http://localhost/Treinamentos/PHPZERO/PHP_SUPER/MVC-Routers-Fotos/assets/images/galeria/' + json.url + '" width="300" border="0"><br/>' + json.titulo + '<hr>';
+                var html = '<img src="' + BASE_URL + 'assets/images/galeria/' + json.url + '" width="300" border="0"><br/>' + json.titulo + '<hr>';
                 $('#fotos').prepend(html);
             }
         })

@@ -15,19 +15,35 @@ function verificarNotificacao() {
     })
 }
 
+function listarNotificacao() {
+    $.ajax({
+        url: 'listar.php',
+        type: 'post',
+        success: function (html) {
+            if (html != null) {
+                $('#lista ul').html(html);
+            }
+
+        }
+    })
+}
+
 
 $(function () {
-    setInterval(verificarNotificacao, 2000);// 2 segundos
+    setInterval(verificarNotificacao, 5000);// 5 segundos
     verificarNotificacao();
 
     $('.notificacoes').on('click', function () {
 
-        $('.lista').toggle;
 
+        listarNotificacao();
 
+        $('#lista').toggle();
     })
 
     $('.addNotif').on('click',function () {
+        $('#lista').hide();
+
         $.ajax({
             url: 'add.php'
         })

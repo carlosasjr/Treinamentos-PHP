@@ -16,12 +16,12 @@ require 'config.php';
 
 <div class="container">
     <div class="notificacoes">0</div>
-    <div class="lista" style="display: none">
+
+    <div id="lista" style="display: none">
         <ul class="list-group">
-            <li class="list-group-item">item 1</li>
-            <li class="list-group-item">item 1</li>
         </ul>
     </div>
+
     <hr>
 
 

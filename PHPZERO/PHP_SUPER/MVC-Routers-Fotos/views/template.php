@@ -13,10 +13,6 @@
 <?php $this->loadViewInTemplate($viewName, $viewData) ?>
 
 <script>var BASE_URL = '<?php echo BASE_URL; ?>';</script>
-
-
-
-
 <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
