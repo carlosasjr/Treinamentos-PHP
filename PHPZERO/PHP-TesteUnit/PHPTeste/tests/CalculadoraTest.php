@@ -4,11 +4,11 @@
  * .class [ TIPO ]
  *
  * @copyright (c) 2018, Carlos Junior
- *
- *
- * .\"vendor/bin/phpunit" --bootstrap ./vendor/autoload.php ./tests/ArquivoTest
  */
-class Calculadora
+
+use \PHPUnit\Framework\TestCase;
+
+class CalculadoraTest extends TestCase
 {
     /*     * ************************************************ */
     /*     * ************* METODOS PRIVADOS ***************** */
@@ -19,8 +19,21 @@ class Calculadora
     /*     * ************* METODOS PUBLICOS ***************** */
     /*     * ************************************************ */
 
-    public function soma($n1, $n2)
+    /** @dataProvider somaDataProvider **/
+    public function testSoma($n1, $n2, $esperado)
     {
-        return $n1 + $n2;
+        $cal = new Calculadora();
+        $this->assertEquals($esperado, $cal->soma($n1, $n2));
     }
+
+    public function somaDataProvider()
+    {
+        return array(
+          array(1, 1, 2),
+          array(20, 10, 30),
+          array(-100, 30, -70),
+          array(10.5, 0.5, 11),
+        );
+    }
+
 }
