@@ -1,0 +1,14 @@
+//bloquear pastas e arquivos para os motores de busca
+
+User-agent: *  //User-agent: Googlebot
+Disallow: /admin
+Disallow: /config.php
+Disallow: /assets
+Disallow: /controllers
+Disallow: /models
+Disallow: /views
+Disallow: /environment.php
+
+
+//monitorar o site para verificar se esta fora do ar
+uptimerobot.com
