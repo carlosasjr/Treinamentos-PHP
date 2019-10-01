@@ -1,0 +1,26 @@
+header.payload.signature
+
+header
+{
+  "typ": "JWT",
+  "alg": "HS256"
+}
+
+KKÇJÇHÇGHJLKGLJKGLJKKLJHLKJHLJK
+
+payload
+{
+  "iss" : "meusite.com.br",
+  "exp" : "1232412315", /*dataexpericao - opicional*/
+  "iat" : "2121315165", /*datacriacao - opicional*/
+  "jti" : "123", /*hash unico para só acessar uma vez - opicional*/
+  "id_user" : 123
+}
+
+AKÇJFAIUFPAIJFAKFJÇLAKSD
+
+signature
+HS256(base64(header).base64(payload).ChaveSecreta) (256bit)
+
+JWT-Final
+KKÇJÇHÇGHJLKGLJKGLJKKLJHLKJHLJK.AKÇJFAIUFPAIJFAKFJÇLAKSD.KKÇJÇHÇGHJLKGLJKGLJKKLJHLKJHLJK.AKÇJFAIUFPAIJFAKFJÇLAKSD

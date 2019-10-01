@@ -1,0 +1,53 @@
+API = Application Programming Interface
+    - Integração em termos de código (Biblioteca)
+    - Integração WEB
+
+Webservice = Serviço de WEB
+    Ex: https://gmail.com/api/get_inbox
+    Ex2: https://gmail.com/api/send_email
+
+Endpoint = Ponto Final
+- URL final para utilização do WebService
+
+
+
+--------------------------------------------------------------
+
+
+GET (Pegar)
+POST (Mandar - Inserir)
+PUT (Atualizar)
+DELETE (Apagar)
+
+Ex:
+minhaloja.com/api/estoque (GET) -- Pegar dados do estoque
+minhaloja.com/api/produto/{id} (GET) -- Pegar um produto especifico
+
+minhaloja.com/api/venda (POST) -- Mandar/Inserir uma venda
+
+minhaloja.com/api/venda/{id} (GET) -- Pegar dados de uma venda
+minhaloja.com/api/produto/{id} (DELETE) -- Deletar um produto especifico
+minhaloja.com/api/produto/{id} (PUT) -- Atualizar um produto especifico
+
+
+-------------------------------------------------------------
+
+RESTful (Retorna uma Json)
+
+GET - http://api.facebcom/facebook/feed/list
+Retorna um array com a lista dos feeds de noticias
+
+POST - http://api.facebcom/facebook/feed/inserir
+Inserir um feed de noticia
+
+
+
+
+
+
+
+
+
+
+
+
