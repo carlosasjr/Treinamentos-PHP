@@ -1,0 +1,2 @@
+--criar um novo projeto laravel
+composer create-project --prefer-dist laravel/laravel nome_projeto
