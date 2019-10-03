@@ -34,6 +34,9 @@ define('MSG_METODO_NAO_DISPONIVEL', 'Método não disponivel');
 define('MSG_USUARIO_NAO_EXISTE', 'Usuário não existe!');
 define('MSG_PROIBIDO_EDITAR', 'Não é permitido editar outro usuário!');
 define('MSG_PROIBIDO_DELETAR', 'Não é permitido excluir outro usuário!');
+define('MSG_PHOTO_NAO_EXISTE', 'Essa foto não existe, ou pertence a outro usuário!');
+define('MSG_COMENTARIO_VAZIO', 'Comentário Vazio!');
+define('MSG_COMENTARIO_NAO_PODE_DELETAR', 'Este comentário não pode ser deletado!');
 
 
 //FIM MENSAGEM DO SISTEMA

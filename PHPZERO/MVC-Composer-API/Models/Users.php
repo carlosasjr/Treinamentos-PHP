@@ -124,6 +124,38 @@ class Users extends Model
         return $info['c'];
     }
 
+    public function follow($id_user)
+    {
+        $sql = "SELECT * FROM users_following WHERE id_user_active = :id_user_active AND 
+                id_user_passive = :id_user_passive";
+        $sql = $this->db->prepare($sql);
+        $sql->bindValue(':id_user_active', $this->getId());
+        $sql->bindValue(':id_user_passive', $id_user);
+        $sql->execute();
+
+        if ($sql->rowCount() === 0) {
+            $sql = "INSERT INTO users_following (id_user_active, id_user_passive) VALUES 
+                    (:id_user_active, :id_user_passive)";
+            $sql = $this->db->prepare($sql);
+            $sql->bindValue(':id_user_active', $this->getId());
+            $sql->bindValue(':id_user_passive', $id_user);
+            $sql->execute();
+            return true;
+        }
+
+        return false;
+    }
+
+    public function unFollow($id_user)
+    {
+        $sql = "DELETE FROM users_following  WHERE id_user_active = :id_user_active AND 
+                id_user_passive = :id_user_passive";
+        $sql = $this->db->prepare($sql);
+        $sql->bindValue(':id_user_active', $this->getId());
+        $sql->bindValue(':id_user_passive', $id_user);
+        $sql->execute();
+    }
+
     public function checkCredentials($email, $pass)
     {
         $sql = "SELECT id, pass FROM users WHERE email = :email";

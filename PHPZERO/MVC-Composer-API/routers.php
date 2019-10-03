@@ -16,3 +16,5 @@ $routers['/photos/{id}'] = '/photos/view/:id';
 $routers['/photos/{id}/comment'] = '/photos/comment/:id';
 $routers['/photos/{id}/like'] = '/photos/like/:id';
 
+$routers['/comments/{id}'] = '/photos/delete_comment/:id';
+
