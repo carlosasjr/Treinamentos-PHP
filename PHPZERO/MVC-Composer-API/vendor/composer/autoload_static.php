@@ -36,11 +36,13 @@ class ComposerStaticInit7c63125fed1b47c45fa6e39161290b39
     public static $classMap = array (
         'Controllers\\HomeController' => __DIR__ . '/../..' . '/Controllers/HomeController.php',
         'Controllers\\NotfoundController' => __DIR__ . '/../..' . '/Controllers/NotfoundController.php',
+        'Controllers\\PhotosController' => __DIR__ . '/../..' . '/Controllers/PhotosController.php',
         'Controllers\\UsersController' => __DIR__ . '/../..' . '/Controllers/UsersController.php',
         'Core\\Controller' => __DIR__ . '/../..' . '/Core/Controller.php',
         'Core\\Core' => __DIR__ . '/../..' . '/Core/Core.php',
         'Core\\Model' => __DIR__ . '/../..' . '/Core/Model.php',
         'Models\\Jwt' => __DIR__ . '/../..' . '/Models/Jwt.php',
+        'Models\\Photos' => __DIR__ . '/../..' . '/Models/Photos.php',
         'Models\\Users' => __DIR__ . '/../..' . '/Models/Users.php',
     );
 

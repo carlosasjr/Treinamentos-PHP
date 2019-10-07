@@ -8,10 +8,12 @@ $baseDir = dirname($vendorDir);
 return array(
     'Controllers\\HomeController' => $baseDir . '/Controllers/HomeController.php',
     'Controllers\\NotfoundController' => $baseDir . '/Controllers/NotfoundController.php',
+    'Controllers\\PhotosController' => $baseDir . '/Controllers/PhotosController.php',
     'Controllers\\UsersController' => $baseDir . '/Controllers/UsersController.php',
     'Core\\Controller' => $baseDir . '/Core/Controller.php',
     'Core\\Core' => $baseDir . '/Core/Core.php',
     'Core\\Model' => $baseDir . '/Core/Model.php',
     'Models\\Jwt' => $baseDir . '/Models/Jwt.php',
+    'Models\\Photos' => $baseDir . '/Models/Photos.php',
     'Models\\Users' => $baseDir . '/Models/Users.php',
 );

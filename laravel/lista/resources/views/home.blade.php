@@ -3,7 +3,7 @@
 @if(count($lista) > 0)
     <ul>
         @foreach($lista as $item)
-            <li>{{ $item->item }}</li>
+            <li>{{ $item->item }} - <a href="delete/{{ $item->id }}">[x]</a> </li>
         @endforeach
     </ul>
 @else
@@ -15,6 +15,6 @@
 
 <form method="post">
     {{ csrf_field() }}
-    <input type="text" name="text">
+    <input type="text" name="item">
     <input type="submit" value="+">
 </form>
