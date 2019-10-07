@@ -25,4 +25,5 @@ Route::get('/algumacoisa/{id}', 'HomeController@teste');
 Route::get('/', 'HomeController@home');
 
 Route::post('/', 'HomeController@add');
+
 Route::get('/delete/{id}', 'HomeController@delete');

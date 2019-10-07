@@ -1,2 +1,6 @@
 --criar um novo projeto laravel
 composer create-project --prefer-dist laravel/laravel nome_projeto
+
+
+--criandos migration
+$ php artisan make:migration create_produtos_table

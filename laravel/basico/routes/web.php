@@ -15,8 +15,15 @@ Route::group(['namespace' => 'Site'], function() {
 
 
 Route::group(['namespace' => 'Painel'], function() {
-    Route::get('/painel', 'PainelController@index');
+  //posso usar middleware(filtro) em uma rota
+    Route::get('/painel', 'PainelController@index')->middleware('auth');
+
+    Route::resource('painel/produtos','ProdutoController');
 });
+
+Route::get('/login', function () {
+    return 'Tela de login';
+})->name('login');
 
 
 
