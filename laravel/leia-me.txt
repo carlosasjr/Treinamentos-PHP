@@ -2,5 +2,26 @@
 composer create-project --prefer-dist laravel/laravel nome_projeto
 
 
---criandos migration
-$ php artisan make:migration create_produtos_table
+--criar um controller resource
+$ php artisan make:controller Painel\\ProdutoController -- resource
+
+--criando migration
+$ php artisan make:migration create_produtos_table  
+
+--rodar a migration
+$ php artisan make:migration
+
+--atualizar as migrations
+$ php  artisan make:refresh
+
+--crear Seeders - inserção automática no banco de dados
+$ php artisan make:seeder UserTableSeeder  {User é o nome da tabela}
+
+--rodar a Seeders
+$ php artisan db:seed
+
+--criar uma model
+$ php artisan make:model Models\\Painel\\Product { -m para criar a migration junto com o model }
+
+
+

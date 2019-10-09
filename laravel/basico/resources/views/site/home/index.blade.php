@@ -3,7 +3,7 @@
 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 @endpush
 
-@extends('site.templates.template1')
+@extends('templates.template1')
 @section('content')
     <h1>Home Page do Site</h1>
     {{ $teste1 or 'Não existe' }}
@@ -47,10 +47,10 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 
 
     {{-- Usando includes --}}
-    @include('site.includes.sidebar')
+    @include('includes.sidebar')
 
     {{-- Usando includes passando variaveis --}}
-    @include('site.includes.sidebar', compact('var1'))
+    @include('includes.sidebar', compact('var1'))
 @endsection
 
 @push('scripts')
