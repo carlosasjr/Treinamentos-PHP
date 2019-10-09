@@ -18,6 +18,7 @@ Route::group(['namespace' => 'Painel'], function() {
   //posso usar middleware(filtro) em uma rota
     Route::get('/painel', 'PainelController@index')->middleware('auth');
 
+    Route::get('painel/produtos/testes','ProdutoController@tests');
     Route::resource('painel/produtos','ProdutoController');
 });
 
