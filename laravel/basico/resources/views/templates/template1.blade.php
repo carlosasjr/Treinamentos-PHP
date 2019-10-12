@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>{{ $title or 'Curso de laravel - Especializa T.I' }}</title>
+
     <!--BootStrap-->
     <link rel="stylesheet" href="{{ url ('../css/app.css') }}">
 
