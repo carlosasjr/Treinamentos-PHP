@@ -10,7 +10,6 @@ Route::group(['namespace' => 'Site'], function() {
     });
 
     Route::get('/categoria2/{id?}', 'SiteController@categoriaOP');
-
 });
 
 

@@ -6,7 +6,7 @@
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>{{ $title or 'Curso de laravel - Especializa T.I' }}</title>
     <!--BootStrap-->
-    <link rel="stylesheet" href="{{ url ('assets/painel/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url ('../css/app.css') }}">
 
     <!--CSS-->
     <link rel="stylesheet" href="{{ url ('assets/painel/css/style.css') }}">
@@ -18,8 +18,7 @@
 <div class="container">
     @yield('content')
 </div>
-<script type="application/javascript" src="{{ url ('assets/painel/js/jquery-3.3.1.min.js')  }}"></script>
- <script type="application/javascript" src="{{ url ('assets/painel/js/bootstrap.js')  }}"></script>
+
 @stack('scripts')
 </body>
 </html>
